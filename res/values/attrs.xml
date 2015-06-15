@@ -1,31 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="FontEditText">
-        <attr name="customEditFont" format="string" />
-    </declare-styleable>
-    <declare-styleable name="MenuButton">
-        <attr name="buttonIcon" format="integer" />
-        <attr name="buttonTitle" format="string" />
-        <attr name="buttonTextSize" format="float" />
-    </declare-styleable>
-    <declare-styleable name="ApplidiumTextView">
-        <attr name="minShrinkSize" format="dimension" />
-        <attr name="customFont" format="string" />
-        <attr name="android:minLines" />
-        <attr name="android:maxLines" />
-    </declare-styleable>
-    <declare-styleable name="gifView">
-        <!--图片来源-->
-        <attr name="src" format="integer" />
-        <!-- 播放延迟 -->
-        <attr name="delay" format="integer" />
-        <!-- 设置是否停止  -->
-        <attr name="stop" format="boolean" />
-    </declare-styleable>
-    <declare-styleable name="ComboSeekBar">
-        <attr name="multiline" format="boolean" />
-        <attr name="myColor" format="color" />
-        <attr name="textSize" format="dimension" />
-    </declare-styleable>
+    
 </resources>
