@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pay_bac_yellow" >
+
+    <ImageButton
+        android:id="@+id/menu_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:visibility="gone"
+        android:src="@drawable/parrents_back_home" />
+
+    <LinearLayout
+        android:layout_width="@dimen/play_frame_width"
+        android:layout_height="@dimen/play_frame_height"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/pLinearLayout_padding"
+        android:paddingRight="@dimen/pLinearLayout_padding"
+        android:paddingTop="@dimen/pLinearLayout_paddingTop" >
+
+        <TextView
+            android:id="@+id/payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/parment_method"
+            android:textColor="@color/black"
+            android:textSize="@dimen/payment_text_size" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/pay_money"
+                android:textColor="@color/black"
+                android:textSize="@dimen/pay_money_text_size" />
+
+            <TextView
+                android:id="@+id/pay_money_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="¥"
+                android:textColor="@color/jacinth"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/pay_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/jacinth"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pImageView_height"
+            android:layout_marginTop="@dimen/pImageView_marginTop"
+            android:src="@drawable/line_pay" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- 支付宝支付 -->
+
+                <RelativeLayout
+                    android:id="@+id/alipay_pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/pay_btn_marginTop"
+                    android:background="@drawable/payment_btn_selector"
+                    android:focusable="true" >
+
+                    <ImageView
+                        android:id="@+id/alipay_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/pic_alipay" />
+
+                    <TextView
+                        android:id="@+id/alipay_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/pay_img_marginLeft"
+                        android:layout_toRightOf="@+id/alipay_img"
+                        android:text="@string/alipay_text"
+                        android:textColor="@color/operator_title"
+                        android:textSize="@dimen/pay_text_size" />
+                </RelativeLayout>
+
+                <!-- 支付宝扫描支付 -->
+
+                <RelativeLayout
+                    android:id="@+id/alipay_pay_qrcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/pay_btn_marginTop"
+                    android:background="@drawable/payment_btn_selector"
+                    android:focusable="true" >
+
+                    <ImageView
+                        android:id="@+id/alipay_qrcode_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/pic_alipay_dimension_code" />
+
+                    <TextView
+                        android:id="@+id/alipay_qrcode_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/pay_img_marginLeft"
+                        android:layout_toRightOf="@+id/alipay_qrcode_img"
+                        android:text="@string/alipay_qrcode_text"
+                        android:textColor="@color/operator_title"
+                        android:textSize="@dimen/pay_text_size" />
+                </RelativeLayout>
+
+                <!-- 微信支付 -->
+
+                <RelativeLayout
+                    android:id="@+id/wechat_pay"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/pay_btn_marginTop"
+                    android:background="@drawable/payment_btn_selector"
+                    android:focusable="true" >
+
+                    <ImageView
+                        android:id="@+id/wechat_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/pic_weixin_pay" />
+
+                    <TextView
+                        android:id="@+id/wechat_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/pay_img_marginLeft"
+                        android:layout_toRightOf="@+id/wechat_img"
+                        android:text="@string/wechat_text"
+                        android:textColor="@color/operator_title"
+                        android:textSize="@dimen/pay_text_size" />
+                </RelativeLayout>
+
+                <!-- 微信扫描支付 -->
+
+                <RelativeLayout
+                    android:id="@+id/wechat_pay_qrcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/pay_btn_marginTop"
+                    android:background="@drawable/payment_btn_selector"
+                    android:focusable="true" >
+
+                    <ImageView
+                        android:id="@+id/wechat_qrcode_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/pic_weixin_dimension_code" />
+
+                    <TextView
+                        android:id="@+id/wechat_qrcode_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/pay_img_marginLeft"
+                        android:layout_toRightOf="@+id/wechat_qrcode_img"
+                        android:text="@string/wechat_qrcode_text"
+                        android:textColor="@color/operator_title"
+                        android:textSize="@dimen/pay_text_size" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

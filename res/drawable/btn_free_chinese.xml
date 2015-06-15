@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- pressed -->
+    <item android:drawable="@drawable/btn_free_chinese_press" android:state_pressed="true" />
+    <!-- focused -->
+    <item android:drawable="@drawable/btn_free_chinese_focus" android:state_focused="true" />
+    <!-- hovered -->
+    <item android:drawable="@drawable/btn_free_chinese_press" android:state_hovered="true" />
+    <!-- disabled -->
+    <item android:drawable="@drawable/btn_free_chinese_disabled" android:state_enabled="false" />
+    <!-- default -->
+    <item android:drawable="@drawable/btn_free_chinese_normal" />
+
+</selector>

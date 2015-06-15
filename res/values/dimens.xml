@@ -1,0 +1,1675 @@
+<resources>
+
+    <!-- 支付界面-->
+    <dimen name="play_frame_width">590dp</dimen>
+    <dimen name="play_frame_height">460dp</dimen>
+
+
+    <dimen name="play_control_btm">40dp</dimen>
+    <dimen name="play_control_side">50dp</dimen>
+    <dimen name="play_control_time_size">28sp</dimen>
+    <dimen name="play_control_stop_button">20dp</dimen>
+    <dimen name="play_control_inner_button_first">15dp</dimen>
+    <dimen name="play_control_inner_button">11dp</dimen>
+    <dimen name="play_control_lanuage_button">20dp</dimen>
+    <dimen name="play_control_timebg_button">20dp</dimen>
+    <dimen name="play_control_time_left">100dp</dimen>
+    <dimen name="play_control_time_top">25dp</dimen>
+    <dimen name="play_control_data_height">30dp</dimen>
+    <dimen name="play_control_inner_button_width">55dp</dimen>
+    <dimen name="play_control_inner_button_height">55dp</dimen>
+    <dimen name="play_go_next_margin_right">45dp</dimen>
+    <dimen name="go_on_info_button_margin">20dp</dimen>
+    <dimen name="control_bar_height">122dp</dimen>
+    <dimen name="teach_view_button_control_layout_margin_bottom">30dp</dimen>
+    <dimen name="parent_question_control_wheel_width">68dp</dimen>
+    <dimen name="parent_question_control_wheel_height">93dp</dimen>
+    <dimen name="parent_question_control_wheel_out_height">160dp</dimen>
+    <dimen name="parent_control_bg_width">896dp</dimen>
+    <dimen name="parent_control_bg_height">502dp</dimen>
+    <dimen name="parent_question_control_space">5dp</dimen>
+    <dimen name="parent_question_control_margin_left_right">15dp</dimen>
+    <dimen name="parent_question_control_margin_left">255dp</dimen>
+    <dimen name="parent_question_control_margin_top">15dp</dimen>
+    <dimen name="parent_question_text_margin_left">260dp</dimen>
+    <dimen name="parent_question_text_margin_top">238dp</dimen>
+    <dimen name="parent_question_text_size">40sp</dimen>
+    <dimen name="confirm_pay_dialog_unfull_screen_width">659dp</dimen>
+    <dimen name="confirm_pay_dialog_unfull_screen_height">478dp</dimen>
+    <dimen name="confirm_to_pay_title_margin_top">220dp</dimen>
+    <dimen name="confirm_to_pay_button_margin_top">50dp</dimen>
+    <dimen name="confirm_to_upgrade_title_margin_top">180dp</dimen>
+    <dimen name="confirm_to_upgrade_title_font_size">26sp</dimen>
+    <dimen name="finish_lean_last_time_font_size">24sp</dimen>
+    <dimen name="finish_video_out_width">835dp</dimen>
+    <dimen name="finish_video_out_height">370dp</dimen>
+    <dimen name="finish_lean_model_button_bg_width">255dp</dimen>
+    <dimen name="finish_lean_model_button_bg_height">175dp</dimen>
+    <dimen name="finish_lean_model_first_margin_left">220dp</dimen>
+    <dimen name="finish_lean_model_icon_margin_left">15dp</dimen>
+    <dimen name="finish_lean_model_icon_margin_top">120dp</dimen>
+    <dimen name="finish_lean_webview__bg_width">293dp</dimen>
+    <dimen name="finish_lean_webview_bg_height">366dp</dimen>
+    <dimen name="finish_lean_model_button_bg_margin_bottom">20dp</dimen>
+    <dimen name="confirm_favorite_title_margin_width">945dp</dimen>
+    <dimen name="confirm_favorite_title_margin_height">654dp</dimen>
+    <dimen name="confirm_dialog_favorite_first_margin_top">160dp</dimen>
+    <dimen name="confirm_favorite_button_width">464dp</dimen>
+    <dimen name="confirm_favorite_button_height">119dp</dimen>
+    <dimen name="confirm_favorite_dialog_text_distance_btn">80dp</dimen>
+    <dimen name="finish_video_layout_cloud_width">980dp</dimen>
+    <dimen name="finish_video_layout_cloud_heght">660dp</dimen>
+    <dimen name="finish_title_image_view_width">460dp</dimen>
+    <dimen name="finish_title_image_view_height">37dp</dimen>
+    <dimen name="cartoon_role_chooser_content_layout_width">1030dp</dimen>
+    <dimen name="cartoon_role_chooser_content_layout_height">410dp</dimen>
+    <dimen name="cartoon_role_chooser_content_layout_margin_top">205dp</dimen>
+    <dimen name="cartoon_chooser_WheelView_height">315dp</dimen>
+    <dimen name="cartoon_chooser_WheelView_framge_height">330dp</dimen>
+    <dimen name="cartoon_item_vertical_interval">10dp</dimen>
+    <dimen name="cartoon_chooser_direct_margin_y">5dp</dimen>
+    <dimen name="baby_layout_width">575dp</dimen>
+    <dimen name="baby_layout_height">360dp</dimen>
+    <dimen name="baby_layout_margin_top">200dp</dimen>
+    <dimen name="baby_age_title_size">36sp</dimen>
+    <dimen name="baby_age_text_size">60sp</dimen>
+    <dimen name="baby_dir_space">10dp</dimen>
+    <dimen name="baby_fragment_next_page_btn_margin_left">277dp</dimen>
+    <dimen name="show_age_width">148dp</dimen>
+    <dimen name="show_age_height">221dp</dimen>
+    <dimen name="cartoon_role_fragment_next_page_btn_margin_left">50dp</dimen>
+    <dimen name="cartoon_role_fragment_count_text_margin_top">70dp</dimen>
+    <dimen name="cartoon_role_count_text_size">24sp</dimen>
+    <dimen name="ability_rainbow_icon_margin_left">40dp</dimen>
+    <dimen name="ability_rainbow_icon_margin_top">40dp</dimen>
+    <dimen name="ability_rainbow_icon_width">170dp</dimen>
+    <dimen name="ability_rainbow_icon_height">95dp</dimen>
+    <dimen name="ability_branch_icon_width">385dp</dimen>
+    <dimen name="ability_branch_icon_height">120dp</dimen>
+    <dimen name="ability_title_icon_width">475dp</dimen>
+    <dimen name="ability_title_icon_height">75dp</dimen>
+    <dimen name="ability_title_icon_margin_top">75dp</dimen>
+    <dimen name="ability_main_content_layout_width">1000dp</dimen>
+    <dimen name="ability_main_content_layout_height">350dp</dimen>
+    <dimen name="ability_ability_title_text_size">28sp</dimen>
+    <dimen name="level_chooser_level_img_default_width">121dp</dimen>
+    <dimen name="level_chooser_level_img_default_height">147dp</dimen>
+    <dimen name="ability_choooser_down_direct_margin_top">20dp</dimen>
+    <dimen name="ability_choooser_down_direct_margin_bottom">10dp</dimen>
+    <dimen name="ability_ability_title_text_margin_bottom">170dp</dimen>
+    <dimen name="parent_setting_dialog_width">985dp</dimen>
+    <dimen name="parent_setting_dialog_height">666dp</dimen>
+    <dimen name="parent_setting_webview_margin_top">170dp</dimen>
+    <dimen name="parent_setting_report_webview_width">299dp</dimen>
+    <dimen name="parent_setting_report_webview_height">372dp</dimen>
+    <dimen name="parent_setting_left_layout_width">261dp</dimen>
+    <dimen name="parent_setting_left_layout_height">372dp</dimen>
+    <dimen name="parent_setting_main_layout_margin">20dp</dimen>
+    <dimen name="parent_setting_left_font_size">24sp</dimen>
+    <dimen name="parent_setting_left_text_top">40dp</dimen>
+    <dimen name="parent_setting_user_image_top">25dp</dimen>
+    <dimen name="parent_setting_left_btm_text_top">55dp</dimen>
+    <dimen name="parent_setting_left_btm2_text_top">20dp</dimen>
+    <dimen name="cartoon_chooser_item_width">112dp</dimen>
+    <dimen name="cartoon_chooser_item_height">168dp</dimen>
+    <dimen name="cartoon_chooser_item_selected_width">123dp</dimen>
+    <dimen name="cartoon_chooser_item_selected_height">185dp</dimen>
+    <dimen name="pay_list_dialog_margin_top">130dp</dimen>
+    <dimen name="pay_list_dialog_width">659dp</dimen>
+    <dimen name="pay_list_dialog_height">478dp</dimen>
+    <dimen name="pay_list_item_width">197dp</dimen>
+    <dimen name="pay_list_item_height">185dp</dimen>
+    <dimen name="pay_list_content_width">400dp</dimen>
+    <dimen name="pay_list_content_height">70dp</dimen>
+    <dimen name="pay_list_promotion_margin_top">524dp</dimen>
+    <dimen name="pay_list_promotion_width">659dp</dimen>
+    <dimen name="pay_list_promotion_height">177dp</dimen>
+    <dimen name="pay_suc_mobile_width">480dp</dimen>
+    <dimen name="pay_suc_text_content_width">370dp</dimen>
+    <dimen name="pay_suc_mobile_height">90dp</dimen>
+    <dimen name="pay_suc_content_height">50dp</dimen>
+    <dimen name="pay_suc_nogift_content_height">150dp</dimen>
+    <dimen name="pay_fail_content_width">400dp</dimen>
+    <dimen name="pay_fail_content_height">100dp</dimen>
+    <dimen name="pay_fail_padding">16dp</dimen>
+    <dimen name="about_infor_buttom_space">40dp</dimen>
+    <dimen name="about_infor_space_up_button">20dp</dimen>
+    <dimen name="about_infor_bg_width">1040dp</dimen>
+    <dimen name="about_infor_bg_height">558dp</dimen>
+    <dimen name="about_infor_inner_margin">20dp</dimen>
+    <dimen name="about_infor_out_margin">40dp</dimen>
+    <dimen name="about_infor_each_width">15dp</dimen>
+    <dimen name="about_infor_half_width">10dp</dimen>
+    <dimen name="about_infor_big_font">32dp</dimen>
+    <dimen name="about_infor_midd_big_font">26dp</dimen>
+    <dimen name="about_infor_midd_font">24dp</dimen>
+    <dimen name="about_infor_code_image_width">156dp</dimen>
+    <dimen name="about_infor_code_image_height">156dp</dimen>
+    <dimen name="about_infor_right_top_height">88dp</dimen>
+    <dimen name="about_infor_left_top_height_one">40dp</dimen>
+    <dimen name="about_infor_left_top_height_two">60dp</dimen>
+    <dimen name="baby_info_dialog_gender_icon_width">174dp</dimen>
+    <dimen name="baby_info_dialog_gender_icon_height">175dp</dimen>
+    <dimen name="baby_info_dialog_gender_icon_margin_top">145dp</dimen>
+    <dimen name="baby_info_dialog_gender_icon_margin_right">45dp</dimen>
+    <dimen name="baby_info_dialog_info_layout_width">856dp</dimen>
+    <dimen name="baby_info_dialog_info_layout_height">113dp</dimen>
+    <dimen name="baby_info_dialog_info_layout_1_margin_top">148dp</dimen>
+    <dimen name="baby_info_dialog_info_layout_1_margin_left">119dp</dimen>
+    <dimen name="baby_info_dialog_info_layout_2_margin_top">28dp</dimen>
+    <dimen name="baby_info_dialog_info_layout_2_margin_left">189dp</dimen>
+    <dimen name="baby_info_dialog_info_layout_3_margin_left">263dp</dimen>
+    <dimen name="baby_info_dialog_info_layout_4_margin_left">333dp</dimen>
+    <dimen name="baby_info_dialog_info_layout_lebel_margin_left">80dp</dimen>
+    <dimen name="baby_info_dialog_info_layout_info_text_size">34sp</dimen>
+    <dimen name="baby_ability_img_layout_width">500dp</dimen>
+    <dimen name="edit_birthday_content_width">978dp</dimen>
+    <dimen name="edit_birthday_content_height">265dp</dimen>
+    <dimen name="edit_gender_content_width">978dp</dimen>
+    <dimen name="edit_gender_content_height">250dp</dimen>
+    <dimen name="edit_gender_chooser_width">180dp</dimen>
+    <dimen name="edit_gender_chooser_height">100dp</dimen>
+    <dimen name="edit_learntime_chooser_width">280dp</dimen>
+    <dimen name="edit_ability_content_width">1080dp</dimen>
+    <dimen name="edit_ability_content_height">558dp</dimen>
+    <dimen name="edit_gender_margin_top">286dp</dimen>
+    <dimen name="edit_lean_time_margin_top">337dp</dimen>
+    <dimen name="edit_ability_margin_top">150dp</dimen>
+    <dimen name="edit_ability_ability_layout_height">230dp</dimen>
+    <dimen name="edit_ability_main_content_margin_top">150dp</dimen>
+    <dimen name="edit_ability_main_content_margin_left">40dp</dimen>
+    <dimen name="edit_ability_main_content_margin_right">60dp</dimen>
+    <dimen name="edit_ability_bottom_text_margin_top">10dp</dimen>
+    <dimen name="edit_text_size">40sp</dimen>
+    <dimen name="left_right_button_width">28dp</dimen>
+    <dimen name="left_right_button_height">31dp</dimen>
+    <dimen name="vod_bg_width">1224dp</dimen>
+    <dimen name="vod_bg_height">671dp</dimen>
+    <dimen name="vod_x_space_dir">10dp</dimen>
+    <dimen name="vod_x_space_left">28dp</dimen>
+    <dimen name="vod_x_space_left_top">30dp</dimen>
+    <dimen name="vod_x_space">15dp</dimen>
+    <dimen name="vod_right_layout_margin">60dp</dimen>
+    <dimen name="vod_left_list_width">231dp</dimen>
+    <dimen name="vod_left_list_height">555dp</dimen>
+    <dimen name="vod_left_list_item_width">130dp</dimen>
+    <dimen name="vod_left_list_item_height">145dp</dimen>
+    <dimen name="vod_left_list_item_layout_height">185dp</dimen>
+    <dimen name="vod_top_item_font_size">28sp</dimen>
+    <dimen name="year_chooser_width">180dp</dimen>
+    <dimen name="year_chooser_height">50dp</dimen>
+    <dimen name="month_chooser_width">100dp</dimen>
+    <dimen name="month_chooser_height">50dp</dimen>
+    <dimen name="episode_itme_button_width">64dp</dimen>
+    <dimen name="episode_itme_button_height">64dp</dimen>
+    <dimen name="episode_item_button_text_size">36sp</dimen>
+    <dimen name="episode_item_button_margin_left">12dp</dimen>
+    <dimen name="episode_layout_horizontal_scroll_view_width">820dp</dimen>
+    <dimen name="episode_layout_horizontal_scroll_view_height">100dp</dimen>
+    <dimen name="episode_icon_view_width">210dp</dimen>
+    <dimen name="episode_icon_view_height">300dp</dimen>
+    <dimen name="episode_icon_view_margin_top">20dp</dimen>
+    <dimen name="episode_icon_view_margin_left">20dp</dimen>
+    <dimen name="episode_title_text_size">30sp</dimen>
+    <dimen name="episode_title_text_margin_left">40dp</dimen>
+    <dimen name="vod_item_horizontal_scroll_view_pages_width">800dp</dimen>
+    <dimen name="vod_item_horizontal_scroll_view_pages_height">50dp</dimen>
+    <dimen name="episode_item_buttons_viewpager_width">400dp</dimen>
+    <dimen name="episode_item_buttons_viewpager_height">260dp</dimen>
+    <dimen name="episode_icon_frame_view_width">220dp</dimen>
+    <dimen name="episode_icon_frame_view_height">375dp</dimen>
+    <dimen name="episode_top_button_font_size">25sp</dimen>
+    <dimen name="continue_serie_name_font_size">20sp</dimen>
+    <dimen name="continue_episode_name_font_size">17sp</dimen>
+    <dimen name="continue_blackboard_margin_top">365dp</dimen>
+    <dimen name="continue_blackboard_margin_right">18dp</dimen>
+    <dimen name="baby_info_exp_image_height">180dp</dimen>
+    <dimen name="teach_player_surface_view_width">748dp</dimen>
+    <dimen name="teach_player_surface_view_height">456dp</dimen>
+    <dimen name="teach_player_surface_view_exp_width">762dp</dimen>
+    <dimen name="teach_player_surface_view_exp_height">468dp</dimen>
+    <!-- register layout -->
+    <dimen name="register_webview_width">480dp</dimen>
+    <dimen name="register_webview_height">292dp</dimen>
+    <dimen name="register_form_padding">20dp</dimen>
+    <dimen name="register_form_width">450dp</dimen>
+    <dimen name="register_form_height">300dp</dimen>
+    <dimen name="register_toggle_password_btn_height">60dp</dimen>
+    <dimen name="register_toggle_password_btn_marginRight">5dp</dimen>
+    <dimen name="register_form_button1_width">220dp</dimen>
+    <dimen name="register_form_fontEditText1_width">405dp</dimen>
+    <dimen name="register_auth_code_height">60dp</dimen>
+    <dimen name="register_auth_code_marginRight">15dp</dimen>
+    <dimen name="register_btn_width">420dp</dimen>
+    <dimen name="register_form_fontEditText1_height">50dp</dimen>
+    <dimen name="register_form_Text_marginBottom">3dp</dimen>
+    <dimen name="register_form_Text_textsize">16dp</dimen>
+    <dimen name="register_form_authcodebtn_textsize">18dp</dimen>
+    <dimen name="register_form_registerbtn_textsize">22dp</dimen>
+    <dimen name="register_form_authcodebtn_height">50dp</dimen>
+    <dimen name="register_form_auth_code_width">177dp</dimen>
+    <dimen name="register_form_fontEditText1_marginTop">20dp</dimen>
+    <dimen name="register_form_agreement_textsize">18dp</dimen>
+    <dimen name="register_form_agreement_marginTop">3dp</dimen>
+    <dimen name="register_form_agreement_maxWidth">435dp</dimen>
+    <dimen name="register_form_title_marginTop">40dp</dimen>
+    <dimen name="register_form_title_marginRight">50dp</dimen>
+    <dimen name="register_form_backbtn_marginBottom">15dp</dimen>
+    <dimen name="register_form_backbtn_marginRight">15dp</dimen>
+    <dimen name="agreement_form_padding">15dp</dimen>
+    <dimen name="agreement_title_marginTop">3dp</dimen>
+    <dimen name="agreement_title_maxWidth">435dp</dimen>
+    <dimen name="agreement_title_textsize">22dp</dimen>
+    <dimen name="agreement_text_marginBottom">10dp</dimen>
+    <dimen name="agreement_form_width">490dp</dimen>
+    <dimen name="agreement_form_height">300dp</dimen>
+    <dimen name="agreement_text_marginLeft">10dp</dimen>
+    <dimen name="agreement_text_marginTop">45dp</dimen>
+    <dimen name="agreement_text_maxWidth">495dp</dimen>
+    <dimen name="agreement_text_textsize">21dp</dimen>
+    <dimen name="agreement_cancel_marginLeft">460dp</dimen>
+    <dimen name="agreement_cancel_marginTop">270dp</dimen>
+    <dimen name="agreement_cancel_width">50dp</dimen>
+    <dimen name="back_btn_register_width">110dp</dimen>
+    <dimen name="back_btn_register_height">102dp</dimen>
+    <dimen name="back_btn_register_paddingLeft">48dp</dimen>
+    <dimen name="back_btn_register_paddingRight">10dp</dimen>
+    <dimen name="back_btn_register_paddingTop">25dp</dimen>
+    <dimen name="back_btn_register_textSize">17dp</dimen>
+    <dimen name="back_btn_login_width">110dp</dimen>
+    <dimen name="back_btn_login_height">102dp</dimen>
+    <dimen name="back_btn_login_paddingLeft">48dp</dimen>
+    <dimen name="back_btn_login_paddingRight">10dp</dimen>
+    <dimen name="back_btn_login_paddingTop">25dp</dimen>
+    <dimen name="back_btn_login_textSize">17dp</dimen>
+
+    <!-- login_fragment layout -->
+    <dimen name="login_operator_view_marginTop">10dp</dimen>
+    <dimen name="login_operator_view_marginBottom">10dp</dimen>
+    <dimen name="login_operator_view_marginLeft">10dp</dimen>
+    <dimen name="login_operator_view_marginRight">10dp</dimen>
+    <dimen name="login_operatorTitle_textSize">18dp</dimen>
+    <dimen name="login_logo_mynick_welcomeTitle_width">144dp</dimen>
+    <dimen name="login_logo_mynick_marginTop">25dp</dimen>
+    <dimen name="login_logo_mynick_welcomeTitle_textsize">36dp</dimen>
+    <dimen name="login_logo_mynick_width">140dp</dimen>
+    <dimen name="login_user_marginLeft">115dp</dimen>
+    <dimen name="bigLogo_width">140dp</dimen>
+    <dimen name="login_logo_mynick2_width">200dp</dimen>
+    <dimen name="login_logo_mynick2_margin">8dp</dimen>
+    <dimen name="login_logo_mynick2_marginTop">40dp</dimen>
+    <dimen name="login_logo_mynick2_welcomeTitle_width">144dp</dimen>
+    <dimen name="login_logo_mynick2_welcomeTitle_textsize">46dp</dimen>
+    <dimen name="login_user_icon_marginTop">42dp</dimen>
+    <dimen name="login_user_icon_marginLeft">105dp</dimen>
+    <dimen name="login_user_icon_ll_padding">3dp</dimen>
+    <dimen name="login_user_icon_width">60dp</dimen>
+    <dimen name="login_user_icon_height">60dp</dimen>
+    <dimen name="login_about_us_marginTop">80dp</dimen>
+    <dimen name="login_providerLogo_width">70dp</dimen>
+    <dimen name="login_providerLogo_height">60dp</dimen>
+    <dimen name="login_about_us_marginRight">110dp</dimen>
+    <dimen name="login_about_us_width">60dp</dimen>
+    <dimen name="login_continuer_marginTop">250dp</dimen>
+    <dimen name="login_continuer_paddingBottom">28dp</dimen>
+    <dimen name="login_continuer_marginLeft">16dp</dimen>
+    <dimen name="login_continuer_paddingRight">16dp</dimen>
+    <dimen name="login_ad_height">120dp</dimen>
+    <dimen name="login_ad_marginBottom">10dp</dimen>
+    <dimen name="login_continuer_textSize">24dp</dimen>
+    <dimen name="login_continuer_width">379dp</dimen>
+    <dimen name="login_continuer_height">178dp</dimen>
+    <dimen name="login_form_width">480dp</dimen>
+    <dimen name="login_form_height">315dp</dimen>
+    <dimen name="login_fontEditText1_width">430dp</dimen>
+    <dimen name="login_fontEditText1_height">55dp</dimen>
+    <dimen name="login_button_width">180dp</dimen>
+    <dimen name="login_button_height">70dp</dimen>
+    <dimen name="login_button_margin">15dp</dimen>
+    <dimen name="login_button1_width">250dp</dimen>
+    <dimen name="login_button1_height">70dp</dimen>
+    <dimen name="login_form_marginTop">190dp</dimen>
+    <dimen name="login_form_maxWidth">360dp</dimen>
+    <dimen name="login_form_paddingBottom">20dp</dimen>
+    <dimen name="login_form_paddingLeft">20dp</dimen>
+    <dimen name="login_form_fontEditText1_width">390dp</dimen>
+    <dimen name="login_form_fontEditText1_height">50dp</dimen>
+    <dimen name="login_form_fontEditText1_padding">10dp</dimen>
+    <dimen name="login_form_fontEditText1_marginTop">30dp</dimen>
+    <dimen name="login_form_fontEditText1_marginBottom">8dp</dimen>
+    <dimen name="login_form_fontEditText1_textSize">24dp</dimen>
+    <dimen name="login_form_button1_marginLeft">15.7dp</dimen>
+    <dimen name="login_form_button1_marginRight">15.7dp</dimen>
+    <dimen name="login_form_button1_marginTop">6.75dp</dimen>
+    <dimen name="login_form_button1_paddingRight">6.75dp</dimen>
+    <dimen name="login_form_button1_textSize">24dp</dimen>
+    <dimen name="login_form_go_register1_marginTop">5.6dp</dimen>
+    <dimen name="login_form_go_register1_maxWidth">326dp</dimen>
+    <dimen name="login_form_go_register1_textSize">16dp</dimen>
+    <dimen name="login_form_go_register_btn_height">20dp</dimen>
+    <dimen name="login_form_go_register_btn_marginLeft">5dp</dimen>
+    <dimen name="login_load_versions_text_marginLeft">65dp</dimen>
+    <dimen name="login_load_versions_text_width">140dp</dimen>
+    <dimen name="login_load_versions_text_marginTop">100dp</dimen>
+    <dimen name="login_load_versions_textsize">24dp</dimen>
+    <dimen name="login_menu_back_marginTop">300dp</dimen>
+    <dimen name="login_ad_textSize">19dp</dimen>
+    <dimen name="authCode_paddingLeft">25dp</dimen>
+    <dimen name="authCode_paddingRight">12dp</dimen>
+    <dimen name="authCodeBtn_height">60dp</dimen>
+
+    <!-- about us layout -->
+    <dimen name="about_us_backbtn_marginBottom">15dp</dimen>
+    <dimen name="about_us_backbtn_marginRight">15dp</dimen>
+    <dimen name="about_us_title_marginTop">40dp</dimen>
+    <dimen name="about_us_title_marginRight">50dp</dimen>
+    <dimen name="about_us_form_padding">22.5dp</dimen>
+    <dimen name="about_us_form_width">640dp</dimen>
+    <dimen name="about_us_form_height">400dp</dimen>
+    <dimen name="about_us_form_paddingBottom">55dp</dimen>
+    <dimen name="about_us_agreement_form_marginTop">60dp</dimen>
+    <dimen name="about_us_webview_width">580dp</dimen>
+    <dimen name="about_us_webview_height">173dp</dimen>
+    <dimen name="about_us_content_marginBottom">2dp</dimen>
+    <dimen name="about_us_content_marginLeft">15dp</dimen>
+    <dimen name="about_us_content_marginRight">15dp</dimen>
+    <dimen name="about_us_content_marginTop">30dp</dimen>
+    <dimen name="about_us_content_maxWidth">580dp</dimen>
+    <dimen name="about_us_content_textSize">21dp</dimen>
+    <dimen name="about_us_versiontv_marginBottom">5dp</dimen>
+    <dimen name="about_us_versiontv_marginLeft">15dp</dimen>
+    <dimen name="about_us_versiontv_marginRight">3dp</dimen>
+    <dimen name="about_us_versiontv_marginTop">0dp</dimen>
+    <dimen name="about_us_versiontv_maxWidth">495dp</dimen>
+    <dimen name="about_us_versiontv_textSize">21dp</dimen>
+    <dimen name="about_us_qqtv_marginLeft">100dp</dimen>
+    <dimen name="about_us_mail_btn_width">270dp</dimen>
+    <dimen name="about_us_mail_image_width">70dp</dimen>
+    <dimen name="about_us_mail_btn_height">72dp</dimen>
+    <dimen name="about_us_mail_btn_marginRight">25dp</dimen>
+    <dimen name="about_us_mail_btn_textSize">18dp</dimen>
+    <dimen name="about_us_call_btn_marginRight">55dp</dimen>
+    <dimen name="about_us_back_btn_width">110dp</dimen>
+    <dimen name="about_us_back_btn_height">12dp</dimen>
+
+    <!-- user center layout -->
+
+    <dimen name="user_info_user_icon_width">80dp</dimen>
+    <dimen name="user_info_form_padding">22.5dp</dimen>
+    <dimen name="user_info_dredge_form_width">530dp</dimen>
+    <dimen name="user_info_dredge_form_height">380dp</dimen>
+    <dimen name="user_info_recharge_btn_width">120dp</dimen>
+    <dimen name="user_info_recharge_btn_height">50dp</dimen>
+    <dimen name="user_info_menu_back_marginBottom">15dp</dimen>
+    <dimen name="user_info_menu_back_marginRight">40dp</dimen>
+    <dimen name="user_info_name_textsize">20dp</dimen>
+    <dimen name="user_name_textsize">18dp</dimen>
+    <dimen name="dredge_textsize">18dp</dimen>
+    <dimen name="dredge_info_textsize">18dp</dimen>
+    <dimen name="user_info_title_marginTop">40dp</dimen>
+    <dimen name="user_info_title_marginRight">40dp</dimen>
+    <dimen name="user_dredge_form_padding">20dp</dimen>
+    <dimen name="user_dredge_form_paddingTop">28dp</dimen>
+    <dimen name="user_dredge_text_width">460dp</dimen>
+    <dimen name="user_dredge_text_height">72dp</dimen>
+    <dimen name="user_dredge_btn_marginTop">5dp</dimen>
+    <dimen name="user_info_web_marginTop">5dp</dimen>
+    <dimen name="large_qrcode_width">180dp</dimen>
+    <dimen name="large_qrcode_height">180dp</dimen>
+    <dimen name="small_qrcode_width">100dp</dimen>
+    <dimen name="small_qrcode_height">100dp</dimen>
+    <dimen name="user_dredge_text_marginLeft">40dp</dimen>
+    <dimen name="user_dredge_text_marginRight">40dp</dimen>
+
+    <!-- mydialog toast layout -->
+    <dimen name="mydialog_marginTop">10dp</dimen>
+    <dimen name="mydialog_margin_h">5dp</dimen>
+    <dimen name="mydialog_margin_w">5dp</dimen>
+    <dimen name="mydialog_msg_textsize">20dp</dimen>
+    <dimen name="mydialog_title_textsize">25dp</dimen>
+    <dimen name="mydialog_btn_textsize">20dp</dimen>
+    <dimen name="toast_bg_boarder_width">9dp</dimen>
+    <dimen name="toast_bg_radius">12dp</dimen>
+    <dimen name="toast_bg_padding">15dp</dimen>
+
+    <!-- alert layout -->
+    <dimen name="alert_textView1_height">400dp</dimen>
+    <dimen name="alert_textView1_width">700dp</dimen>
+    <dimen name="alert_textView1_maxHeight">411dp</dimen>
+    <dimen name="alert_textView1_maxWidth">771dp</dimen>
+    <dimen name="alert_textView1_paddingBottom">100dp</dimen>
+    <dimen name="alert_textView1_paddingLeft">30dp</dimen>
+    <dimen name="alert_textView1_paddingRight">30dp</dimen>
+    <dimen name="alert_textView1_paddingTop">30dp</dimen>
+    <dimen name="alert_textView1_textSize">35dp</dimen>
+
+    <!-- back button layout -->
+
+    <dimen name="back_button_width">200dp</dimen>
+    <dimen name="back_button_height">110dp</dimen>
+    <dimen name="back_button_paddingBottom">0dp</dimen>
+    <dimen name="back_button_paddingLeft">40dp</dimen>
+    <dimen name="back_button_paddingRight">30dp</dimen>
+    <dimen name="back_button_textSize">15dp</dimen>
+
+    <!-- cgu layout -->
+    <dimen name="cgu_ImageView1_marginLeft">840dp</dimen>
+    <dimen name="cgu_ImageView1_marginTop">250dp</dimen>
+    <dimen name="cgu_ImageView2_marginLeft">45dp</dimen>
+    <dimen name="cgu_ImageView2_marginTop">160dp</dimen>
+    <dimen name="cgu_box_layout_marginBottom">66dp</dimen>
+    <dimen name="cgu_box_layout_marginLeft">160dp</dimen>
+    <dimen name="cgu_box_layout_marginRight">155dp</dimen>
+    <dimen name="cgu_box_layout_marginTop">85dp</dimen>
+    <dimen name="cgu_box_layout_width">700dp</dimen>
+    <dimen name="cgu_box_layout_height">480dp</dimen>
+    <dimen name="cgu_box_layout_maxWidth">709dp</dimen>
+    <dimen name="cgu_webView1_marginBottom">40dp</dimen>
+    <dimen name="cgu_webView1_marginLeft">33dp</dimen>
+    <dimen name="cgu_webView1_marginRight">33dp</dimen>
+    <dimen name="cgu_webView1_marginTop">0dp</dimen>
+    <dimen name="cgu_fontTextView1_height">70dp</dimen>
+    <dimen name="cgu_fontTextView1_marginLeft">30dp</dimen>
+    <dimen name="cgu_fontTextView1_marginRight">30dp</dimen>
+    <dimen name="cgu_fontTextView1_textSize">42dp</dimen>
+    <dimen name="cgu_fontTextView1_minShrinkSize">30dp</dimen>
+    <dimen name="cgu_ImageView1_width">180dp</dimen>
+    <dimen name="cgu_ImageView1_height">200dp</dimen>
+    <dimen name="cgu_ImageView2_width">170dp</dimen>
+    <dimen name="cgu_ImageView2_height">220dp</dimen>
+
+    <!-- continue button layout -->
+    <dimen name="continue_button_width">200dp</dimen>
+    <dimen name="continue_button_height">110dp</dimen>
+    <dimen name="continue_button_paddingBottom">0dp</dimen>
+    <dimen name="continue_button_paddingLeft">30dp</dimen>
+    <dimen name="continue_button_paddingRight">40dp</dimen>
+    <dimen name="continue_button_textsize">15dp</dimen>
+    <dimen name="continue_ad_layout_marginBottom">20dp</dimen>
+
+    <!-- controle parental layout -->
+    <dimen name="controle_parental_box_width">646dp</dimen>
+    <dimen name="controle_parental_box_height">400dp</dimen>
+    <dimen name="controle_parental_box_maxWidth">656dp</dimen>
+    <dimen name="controle_parental_box_paddingBottom">20dp</dimen>
+    <dimen name="controle_parental_box_paddingLeft">55dp</dimen>
+    <dimen name="controle_parental_box_paddingRight">60dp</dimen>
+    <dimen name="controle_parental_box_paddingTop">0dp</dimen>
+    <dimen name="controle_parental_fontTextView1_height">70dp</dimen>
+    <dimen name="controle_parental_fontTextView1_textSize">36dp</dimen>
+    <dimen name="controle_parental_fontTextView1_minShrinkSize">28dp</dimen>
+    <dimen name="controle_parental_fontTextView2_marginBottom">20dp</dimen>
+    <dimen name="controle_parental_fontTextView2_marginTop">40dp</dimen>
+    <dimen name="controle_parental_fontTextView2_textSize">28dp</dimen>
+    <dimen name="controle_parental_fontTextView2_minShrinkSize">22dp</dimen>
+    <dimen name="controle_parental_LinearLayout_paddingLeft">15dp</dimen>
+    <dimen name="controle_parental_LinearLayout_paddingRight">15dp</dimen>
+    <dimen name="controle_parental_fontTextView3_paddingBottom">5dp</dimen>
+    <dimen name="controle_parental_fontTextView3_textSize">25dp</dimen>
+    <dimen name="controle_parental_fontTextView4_marginLeft">10dp</dimen>
+    <dimen name="controle_parental_fontTextView4_marginRight">10dp</dimen>
+    <dimen name="controle_parental_fontTextView4_paddingBottom">5dp</dimen>
+    <dimen name="controle_parental_fontTextView4_textSize">50dp</dimen>
+    <dimen name="controle_parental_fontTextView5_paddingBottom">5dp</dimen>
+    <dimen name="controle_parental_fontTextView5_textSize">25dp</dimen>
+    <dimen name="controle_parental_fontTextView6_marginLeft">10dp</dimen>
+    <dimen name="controle_parental_fontTextView6_marginRight">10dp</dimen>
+    <dimen name="controle_parental_fontTextView6_paddingBottom">5dp</dimen>
+    <dimen name="controle_parental_fontTextView6_textSize">50dp</dimen>
+    <dimen name="controle_parental_editText1_textSize">62dp</dimen>
+    <dimen name="controle_parental_button2_marginRight">10dp</dimen>
+    <dimen name="controle_parental_button2_width">155dp</dimen>
+    <dimen name="controle_parental_button2_height">85dp</dimen>
+    <dimen name="controle_parental_button2_paddingLeft">8dp</dimen>
+    <dimen name="controle_parental_button2_textSize">20dp</dimen>
+    <dimen name="controle_parental_number_width">140dp</dimen>
+    <dimen name="controle_parental_number_height">70dp</dimen>
+    <!-- devices dialog layout -->
+    <dimen name="devices_dialog_width">700dp</dimen>
+    <dimen name="devices_dialog_height">420dp</dimen>
+    <dimen name="devices_dialog_padding">30dp</dimen>
+    <dimen name="devices_dialog_ListView_height">280dp</dimen>
+    <dimen name="devices_dialog_ListView_dividerHeight">15dp</dimen>
+    <dimen name="devices_dialog_cancel_btn_marginTop">20dp</dimen>
+    <dimen name="devices_dialog_ImageView_marginLeft">15dp</dimen>
+    <dimen name="devices_dialog_cancel_btn_height">60dp</dimen>
+    <dimen name="devices_dialog_cancel_btn_text_marginLeft">10dp</dimen>
+    <dimen name="devices_dialog_cancel_btn_text_textSize">24dp</dimen>
+    <dimen name="devices_list_item_height">68dp</dimen>
+    <dimen name="devices_list_item_ImageView_width">60dp</dimen>
+    <dimen name="devices_list_item_ImageView_height">36dp</dimen>
+    <dimen name="devices_list_item_ImageView_marginLeft">30dp</dimen>
+    <dimen name="devices_list_item_text_marginLeft">10dp</dimen>
+    <dimen name="devices_list_item_textsize">20dp</dimen>
+
+    <!-- end of service layout -->
+    <dimen name="end_service_bigLogo_marginTop">0dp</dimen>
+    <dimen name="end_service_providerLogo_marginLeft">750dp</dimen>
+    <dimen name="end_service_providerLogo_marginTop">465dp</dimen>
+    <dimen name="end_service_relancer_paddingBottom">32dp</dimen>
+    <dimen name="end_service_relancer_paddingRight">40dp</dimen>
+    <dimen name="end_service_relancer_marginLeft">400dp</dimen>
+    <dimen name="end_service_relancer_marginTop">200dp</dimen>
+    <dimen name="end_service_relancer_width">240dp</dimen>
+    <dimen name="end_service_relancer_height">200dp</dimen>
+    <dimen name="end_service_relancer_textSize">25dp</dimen>
+    <dimen name="end_service_operatorTitle_textSize">24dp</dimen>
+    <dimen name="end_service_providerLogo_width">100dp</dimen>
+
+    <!-- ft customprogressdialog layout -->
+    <dimen name="ft_customprogressdialog_textSize">14dp</dimen>
+
+    <!-- help faq cell layout -->
+    <dimen name="help_faq_cell_marginBottom">8dp</dimen>
+    <dimen name="help_faq_cell_marginLeft">8dp</dimen>
+    <dimen name="help_faq_cell_marginRight">8dp</dimen>
+    <dimen name="help_faq_cell_marginTop">8dp</dimen>
+    <dimen name="help_faq_cell_textSize">21dp</dimen>
+
+    <!-- help faq detail layout -->
+    <dimen name="help_faq_detail_menu_persona_1_marginTop">250dp</dimen>
+    <dimen name="help_faq_detail_menu_persona_1_marginLeft">840dp</dimen>
+    <dimen name="help_faq_detail_menu_persona_2_marginTop">160dp</dimen>
+    <dimen name="help_faq_detail_menu_persona_1_width">160dp</dimen>
+    <dimen name="help_faq_detail_menu_persona_1_height">160dp</dimen>
+    <dimen name="help_faq_detail_menu_persona_2_width">180dp</dimen>
+    <dimen name="help_faq_detail_menu_persona_2_height">180dp</dimen>
+    <dimen name="help_faq_detail_menu_persona_2_marginLeft">45dp</dimen>
+    <dimen name="help_faq_detail_box_marginBottom">66dp</dimen>
+    <dimen name="help_faq_detail_box_marginLeft">160dp</dimen>
+    <dimen name="help_faq_detail_box_marginRight">155dp</dimen>
+    <dimen name="help_faq_detail_box_marginTop">85dp</dimen>
+    <dimen name="help_faq_detail_box_maxWidth">709dp</dimen>
+    <dimen name="help_faq_detail_box_width">700dp</dimen>
+    <dimen name="help_faq_detail_box_height">480dp</dimen>
+    <dimen name="help_faq_detail_webView1_marginBottom">40dp</dimen>
+    <dimen name="help_faq_detail_webView1_marginLeft">31dp</dimen>
+    <dimen name="help_faq_detail_webView1_marginRight">31dp</dimen>
+    <dimen name="help_faq_detail_webView1_marginTop">70dp</dimen>
+    <dimen name="help_faq_detail_fontTextView1_height">70dp</dimen>
+    <dimen name="help_faq_detail_fontTextView1_marginLeft">35dp</dimen>
+    <dimen name="help_faq_detail_fontTextView1_marginRight">35dp</dimen>
+    <dimen name="help_faq_detail_fontTextView1_textSize">25dp</dimen>
+    <dimen name="help_faq_detail_fontTextView1_minShrinkSize">16dp</dimen>
+
+    <!-- help faq layout -->
+    <dimen name="help_faq_ImageView1_marginTop">250dp</dimen>
+    <dimen name="help_faq_ImageView1_marginLeft">880dp</dimen>
+    <dimen name="help_faq_ImageView2_marginTop">160dp</dimen>
+    <dimen name="help_faq_ImageView2_marginLeft">45dp</dimen>
+    <dimen name="help_faq_box_width">700dp</dimen>
+    <dimen name="help_faq_box_height">480dp</dimen>
+    <dimen name="help_faq_box_marginBottom">66dp</dimen>
+    <dimen name="help_faq_box_marginLeft">160dp</dimen>
+    <dimen name="help_faq_box_marginRight">155dp</dimen>
+    <dimen name="help_faq_box_marginTop">85dp</dimen>
+    <dimen name="help_faq_box_maxWidth">709dp</dimen>
+    <dimen name="help_faq_listview1_marginBottom">40dp</dimen>
+    <dimen name="help_faq_listview1_marginLeft">31dp</dimen>
+    <dimen name="help_faq_listview1_marginRight">31dp</dimen>
+    <dimen name="help_faq_listview1_marginTop">75dp</dimen>
+    <dimen name="help_faq_listview1_dividerHeight">1dp</dimen>
+    <dimen name="help_faq_fontTextView1_height">70dp</dimen>
+    <dimen name="help_faq_fontTextView1_marginLeft">40dp</dimen>
+    <dimen name="help_faq_fontTextView1_marginRight">40dp</dimen>
+    <dimen name="help_faq_fontTextView1_textSize">33dp</dimen>
+    <dimen name="help_faq_fontTextView1_minShrinkSize">26dp</dimen>
+
+    <!-- help menu layout -->
+    <dimen name="help_menu_ImageView1_marginTop">250dp</dimen>
+    <dimen name="help_menu_ImageView1_marginLeft">880dp</dimen>
+    <dimen name="help_menu_ImageView2_marginTop">160dp</dimen>
+    <dimen name="help_menu_ImageView2_marginLeft">45dp</dimen>
+    <dimen name="help_menu_box_padding">55dp</dimen>
+    <dimen name="help_menu_box_width">700dp</dimen>
+    <dimen name="help_menu_box_height">450dp</dimen>
+    <dimen name="help_menu_box_marginLeft">160dp</dimen>
+    <dimen name="help_menu_box_marginTop">85dp</dimen>
+    <dimen name="help_menu_box_maxWidth">709dp</dimen>
+    <dimen name="help_menu_fontTextView1_height">80dp</dimen>
+    <dimen name="help_menu_fontTextView1_textSize">33dp</dimen>
+    <dimen name="help_menu_fontTextView1_minShrinkSize">26dp</dimen>
+    <dimen name="help_menu_menuButton1_marginBottom">25dp</dimen>
+    <dimen name="help_menu_menuButton1_marginTop">30dp</dimen>
+    <dimen name="help_menu_menuButton2_marginBottom">25dp</dimen>
+    <dimen name="help_menu_menuButton3_marginBottom">15dp</dimen>
+
+    <!-- help video cell layout -->
+    <dimen name="help_video_cell_paddingBottom">2dp</dimen>
+    <dimen name="help_video_cell_paddingLeft">10dp</dimen>
+    <dimen name="help_video_cell_paddingRight">10dp</dimen>
+    <dimen name="help_video_cell_paddingTop">3dp</dimen>
+    <dimen name="help_video_cell_menuButton1_height">77dp</dimen>
+
+    <!-- help video layout -->
+    <dimen name="help_video_ImageView1_marginTop">250dp</dimen>
+    <dimen name="help_video_ImageView1_marginLeft">880dp</dimen>
+    <dimen name="help_video_ImageView2_marginTop">160dp</dimen>
+    <dimen name="help_video_ImageView2_marginLeft">45dp</dimen>
+    <dimen name="help_video_box_width">700dp</dimen>
+    <dimen name="help_video_box_height">600dp</dimen>
+    <dimen name="help_video_box_marginBottom">66dp</dimen>
+    <dimen name="help_video_box_marginLeft">160dp</dimen>
+    <dimen name="help_video_box_marginRight">155dp</dimen>
+    <dimen name="help_video_box_marginTop">85dp</dimen>
+    <dimen name="help_video_box_maxWidth">709dp</dimen>
+    <dimen name="help_video_listview1_marginBottom">40dp</dimen>
+    <dimen name="help_video_listview1_marginLeft">35dp</dimen>
+    <dimen name="help_video_listview1_marginRight">35dp</dimen>
+    <dimen name="help_video_listview1_marginTop">73dp</dimen>
+    <dimen name="help_video_fontTextView1_height">70dp</dimen>
+    <dimen name="help_video_fontTextView1_marginLeft">30dp</dimen>
+    <dimen name="help_video_fontTextView1_marginRight">30dp</dimen>
+    <dimen name="help_video_fontTextView1_textSize">33dp</dimen>
+    <dimen name="help_video_fontTextView1_minShrinkSize">26dp</dimen>
+
+    <!-- history graph layout -->
+    <dimen name="history_graph_box_width">650dp</dimen>
+    <dimen name="history_graph_box_height">450dp</dimen>
+    <dimen name="history_graph_box_marginBottom">66dp</dimen>
+    <dimen name="history_graph_box_marginLeft">160dp</dimen>
+    <dimen name="history_graph_box_marginRight">155dp</dimen>
+    <dimen name="history_graph_box_marginTop">85dp</dimen>
+    <dimen name="history_graph_box_maxWidth">709dp</dimen>
+    <dimen name="history_graph_box_paddingBottom">45dp</dimen>
+    <dimen name="history_graph_box_paddingLeft">35dp</dimen>
+    <dimen name="history_graph_box_paddingRight">35dp</dimen>
+    <dimen name="history_graph_fontTextView1_height">70dp</dimen>
+    <dimen name="history_graph_fontTextView1_marginBottom">5dp</dimen>
+    <dimen name="history_graph_fontTextView1_textSize">33dp</dimen>
+    <dimen name="history_graph_fontTextView1_minShrinkSize">26dp</dimen>
+    <dimen name="history_graph_ImageView_marginLeft">32dp</dimen>
+    <dimen name="history_graph_ImageView_marginTop">120dp</dimen>
+
+    <!-- history mail layout -->
+    <dimen name="history_mail_ImageView1_marginTop">150dp</dimen>
+    <dimen name="history_mail_ImageView1_marginLeft">30dp</dimen>
+    <dimen name="history_mail_box_width">700dp</dimen>
+    <dimen name="history_mail_box_height">400dp</dimen>
+    <dimen name="history_mail_box_marginLeft">160dp</dimen>
+    <dimen name="history_mail_box_marginTop">85dp</dimen>
+    <dimen name="history_mail_box_maxWidth">709dp</dimen>
+    <dimen name="history_mail_box_paddingBottom">45dp</dimen>
+    <dimen name="history_mail_box_paddingLeft">40dp</dimen>
+    <dimen name="history_mail_box_paddingRight">40dp</dimen>
+    <dimen name="history_mail_fontTextView1_height">80dp</dimen>
+    <dimen name="history_mail_fontTextView1_textSize">33dp</dimen>
+    <dimen name="history_mail_fontTextView1_minShrinkSize">26dp</dimen>
+    <dimen name="history_mail_fontEditText1_marginBottom">5dp</dimen>
+    <dimen name="history_mail_fontEditText1_marginTop">5dp</dimen>
+    <dimen name="history_mail_fontEditText1_textSize">40dp</dimen>
+    <dimen name="history_mail_fontEditText1_width">520dp</dimen>
+
+    <!-- history media cell layout -->
+    <dimen name="history_media_cell_picto_width">100dp</dimen>
+    <dimen name="history_media_cell_picto_marginBottom">10dp</dimen>
+    <dimen name="history_media_cell_picto_marginLeft">10dp</dimen>
+    <dimen name="history_media_cell_picto_marginRight">7dp</dimen>
+    <dimen name="history_media_cell_picto_marginTop">10dp</dimen>
+    <dimen name="history_media_cell_mediaSerieName_textsize">15dp</dimen>
+    <dimen name="history_media_cell_mediaEpisodeName_textsize">16dp</dimen>
+    <dimen name="history_media_cell_mediaCritere1_width">130dp</dimen>
+    <dimen name="history_media_cell_mediaCritere1_height">35dp</dimen>
+    <dimen name="history_media_cell_mediaCritere1_marginLeft">7dp</dimen>
+    <dimen name="history_media_cell_LinearLayout_marginBottom">5dp</dimen>
+    <dimen name="history_media_cell_mediaCritere1_marginRight">5dp</dimen>
+    <dimen name="history_media_cell_mediaCritere1_textSize">16dp</dimen>
+    <dimen name="history_media_cell_mediaRating_marginLeft">10dp</dimen>
+    <dimen name="history_media_cell_mediaRating_marginRight">10dp</dimen>
+    <dimen name="history_media_cell_mediaRating_width">50dp</dimen>
+
+    <!-- history media layout -->
+
+    <dimen name="history_media_box_width">700dp</dimen>
+    <dimen name="history_media_box_height">480dp</dimen>
+    <dimen name="history_media_box_marginBottom">66dp</dimen>
+    <dimen name="history_media_box_marginLeft">160dp</dimen>
+    <dimen name="history_media_box_marginRight">155dp</dimen>
+    <dimen name="history_media_box_marginTop">85dp</dimen>
+    <dimen name="history_media_box_maxWidth">709dp</dimen>
+    <dimen name="history_media_listview1_marginBottom">45dp</dimen>
+    <dimen name="history_media_listview1_marginLeft">31dp</dimen>
+    <dimen name="history_media_listview1_marginRight">31dp</dimen>
+    <dimen name="history_media_listview1_marginTop">77dp</dimen>
+    <dimen name="history_media_listview1_dividerHeight">1dp</dimen>
+    <dimen name="history_media_fontTextView1_marginLeft">40dp</dimen>
+    <dimen name="history_media_fontTextView1_marginRight">40dp</dimen>
+    <dimen name="history_media_fontTextView1_minHeight">70dp</dimen>
+    <dimen name="history_media_fontTextView1_textSize">33dp</dimen>
+    <dimen name="history_media_fontTextView1_minShrinkSize">2dp</dimen>
+    <dimen name="history_media_imageView2_marginLeft">880dp</dimen>
+    <dimen name="history_media_imageView2_marginTop">280dp</dimen>
+    <dimen name="history_media_imageView1_marginLeft">86dp</dimen>
+
+    <!-- history menu layout -->
+    <dimen name="history_menu_ImageView1_marginTop">210dp</dimen>
+    <dimen name="history_menu_ImageView1_marginLeft">870dp</dimen>
+    <dimen name="history_menu_box_width">700dp</dimen>
+    <dimen name="history_menu_box_height">450dp</dimen>
+    <dimen name="history_menu_box_marginLeft">160dp</dimen>
+    <dimen name="history_menu_box_marginTop">85dp</dimen>
+    <dimen name="history_menu_box_maxWidth">709dp</dimen>
+    <dimen name="history_menu_box_paddingBottom">50dp</dimen>
+    <dimen name="history_menu_box_paddingLeft">30dp</dimen>
+    <dimen name="history_menu_box_paddingRight">30dp</dimen>
+    <dimen name="history_menu_fontTextView1_height">70dp</dimen>
+    <dimen name="history_menu_fontTextView1_textSize">33dp</dimen>
+    <dimen name="history_menu_fontTextView1_minShrinkSize">26dp</dimen>
+    <dimen name="history_menu_menuButton1_marginBottom">25dp</dimen>
+    <dimen name="history_menu_menuButton1_marginTop">30dp</dimen>
+    <dimen name="history_menu_menuButton1_marginLeft">20dp</dimen>
+    <dimen name="history_menu_menuButton1_marginRight">20dp</dimen>
+    <dimen name="history_menu_menuButton3_marginBottom">15dp</dimen>
+
+    <!-- history profile layout -->
+    <dimen name="history_profile_ImageView1_marginTop">280dp</dimen>
+    <dimen name="history_profile_ImageView1_marginLeft">870dp</dimen>
+    <dimen name="history_profile_box_width">700dp</dimen>
+    <dimen name="history_profile_box_height">430dp</dimen>
+    <dimen name="history_profile_box_marginLeft">160dp</dimen>
+    <dimen name="history_profile_box_marginTop">85dp</dimen>
+    <dimen name="history_profile_box_maxWidth">709dp</dimen>
+    <dimen name="history_profile_box_paddingBottom">55dp</dimen>
+    <dimen name="history_profile_box_paddingLeft">35dp</dimen>
+    <dimen name="history_profile_box_paddingRight">35dp</dimen>
+    <dimen name="history_profile_fontTextView1_height">80dp</dimen>
+    <dimen name="history_profile_fontTextView1_textSize">33dp</dimen>
+    <dimen name="history_profile_fontTextView1_minShrinkSize">24dp</dimen>
+    <dimen name="history_profile_menuButton1_marginBottom">25dp</dimen>
+    <dimen name="history_profile_menuButton1_marginTop">30dp</dimen>
+    <dimen name="history_profile_menuButton1_marginLeft">20dp</dimen>
+    <dimen name="history_profile_menuButton1_marginRight">20dp</dimen>
+    <dimen name="history_profile_menuButton3_marginBottom">15dp</dimen>
+
+    <!-- logo bottom layout -->
+    <dimen name="logo_bottom_paddingBottom">10dp</dimen>
+    <dimen name="logo_bottom_paddingRight">25dp</dimen>
+
+    <!-- main menu layout -->
+    <dimen name="main_menu_scorllview_paddingTop">5dp</dimen>
+    <dimen name="main_menu_scorllview_paddingBottom">20dp</dimen>
+    <dimen name="main_menu_scorllview_layout_paddingTop">5dp</dimen>
+    <dimen name="main_menu_scorllview_layout_paddingBottom">10dp</dimen>
+    <dimen name="main_menu_ImageView1_marginTop">150dp</dimen>
+    <dimen name="main_menu_ImageView1_marginLeft">40dp</dimen>
+    <dimen name="main_menu_box_marginLeft">160dp</dimen>
+    <dimen name="main_menu_box_marginTop">85dp</dimen>
+    <dimen name="main_menu_box_maxWidth">709dp</dimen>
+    <dimen name="main_menu_box_paddingBottom">55dp</dimen>
+    <dimen name="main_menu_box_paddingLeft">30dp</dimen>
+    <dimen name="main_menu_box_paddingRight">30dp</dimen>
+    <dimen name="main_menu_box_width">700dp</dimen>
+    <dimen name="main_menu_box_height">480dp</dimen>
+    <dimen name="main_menu_fontTextView1_height">80dp</dimen>
+    <dimen name="main_menu_fontTextView1_textSize">33dp</dimen>
+    <dimen name="main_menu_fontTextView1_minShrinkSize">26dp</dimen>
+    <dimen name="main_menu_menuButton1_marginBottom">8dp</dimen>
+    <dimen name="main_menu_menuButton1_marginTop">15dp</dimen>
+    <dimen name="main_menu_menuButton1_marginLeft">20dp</dimen>
+    <dimen name="main_menu_menuButton1_marginRight">20dp</dimen>
+    <dimen name="main_menu_fontTextView2_paddingBottom">5dp</dimen>
+    <dimen name="main_menu_fontTextView2_paddingLeft">10dp</dimen>
+    <dimen name="main_menu_fontTextView2_textsize">20dp</dimen>
+    <dimen name="main_menuHelp_marginRight">30dp</dimen>
+    <dimen name="main_menu_ImageView_width">150dp</dimen>
+    <dimen name="main_menu_ImageView_height">150dp</dimen>
+
+    <!-- menu navigatine layout -->
+    <dimen name="menu_navigatine_back_marginBottom">80dp</dimen>
+    <dimen name="menu_navigatine_continue_marginBottom">80dp</dimen>
+    <dimen name="menu_navigatine_continue_menu_back_marginLeft">130dp</dimen>
+    <dimen name="menu_navigatine_continue_menu_continue_marginRight">130dp</dimen>
+
+    <!-- movie player layout -->
+    <dimen name="movie_player_touping_tv_pic_width">380dp</dimen>
+    <dimen name="movie_player_touping_tv_pic_height">290dp</dimen>
+    <dimen name="movie_player_touping_view_tx_textsize">24dp</dimen>
+    <dimen name="movie_player_videoSkip_width">215dp</dimen>
+    <dimen name="movie_player_videoSkip_height">169dp</dimen>
+    <dimen name="movie_player_videoSkip_marginBottom">10dp</dimen>
+    <dimen name="movie_player_videoSkip_marginRight">20dp</dimen>
+    <dimen name="movie_player_view1_marginTop">75dp</dimen>
+    <dimen name="movie_player_view1_height">90dp</dimen>
+    <dimen name="duration_language_height">90dp</dimen>
+    <dimen name="movie_player_durationLayout_marginBottom">10dp</dimen>
+    <dimen name="movie_player_durationLayout_minHeight">152dp</dimen>
+    <dimen name="movie_player_timeleft_height">150dp</dimen>
+    <dimen name="movie_player_timeleft_layout_width">90dp</dimen>
+    <dimen name="movie_player_timeleft_layout_height">45dp</dimen>
+    <dimen name="durationLayout_width">90dp</dimen>
+    <dimen name="durationLayout_height">45dp</dimen>
+    <dimen name="language_width">115dp</dimen>
+    <dimen name="language_height">50dp</dimen>
+    <dimen name="movie_player_timeleft_maxWidth">213dp</dimen>
+    <dimen name="movie_player_timeleft_minWidth">180dp</dimen>
+    <dimen name="movie_player_timeleft_textSize">16sp</dimen>
+    <dimen name="movie_player_imageView2_width">110dp</dimen>
+    <dimen name="movie_player_imageView2_height">110dp</dimen>
+    <dimen name="durLangModify_width">110dp</dimen>
+    <dimen name="durLangModify_height">110dp</dimen>
+    <dimen name="movie_player_imageView2_marginBottom">15dp</dimen>
+    <dimen name="movie_player_imageView2_marginRight">10dp</dimen>
+    <dimen name="movie_player_imageView2_maxWidth">140dp</dimen>
+    <dimen name="movie_player_imageView2_paddingLeft">20dp</dimen>
+    <dimen name="movie_player_imageView2_paddingRight">20dp</dimen>
+    <dimen name="movie_player_imageView2_paddingTop">45dp</dimen>
+    <dimen name="movie_player_imageView2_textSize">12sp</dimen>
+    <dimen name="movie_player_imageView3_width">55dp</dimen>
+    <dimen name="movie_player_imageView3_marginRight">50dp</dimen>
+    <dimen name="movie_player_imageView3_marginTop">20dp</dimen>
+    <dimen name="movie_player_timer_width">80dp</dimen>
+    <dimen name="movie_player_timer_height">120dp</dimen>
+    <dimen name="movie_player_timer_maxWidth">120dp</dimen>
+    <dimen name="movie_player_timer_paddingLeft">20dp</dimen>
+    <dimen name="movie_player_timer_paddingTop">65dp</dimen>
+    <dimen name="movie_player_timer_textSize">12sp</dimen>
+    <dimen name="movie_player_named_cloud_marginTop">30dp</dimen>
+    <dimen name="movie_player_named_cloud_marginRight">40dp</dimen>
+    <dimen name="movie_player_tuping_width">60dp</dimen>
+    <dimen name="movie_player_tuping_marginLeft">20dp</dimen>
+    <dimen name="movie_player_tuping_marginTop">20dp</dimen>
+    <dimen name="movie_player_pause_btn_width">90dp</dimen>
+    <dimen name="movie_player_pausebtn_marginLeft">20dp</dimen>
+    <dimen name="movie_player_pausebtn_marginBottom">60dp</dimen>
+
+    <!-- name cloud layout -->
+    <dimen name="name_cloud_paddingRight">40dp</dimen>
+    <dimen name="name_cloud_nameCloud_paddingTop">40dp</dimen>
+    <dimen name="name_cloud_nameCloud_width">110dp</dimen>
+    <dimen name="name_cloud_nameCloud_height">60dp</dimen>
+    <dimen name="name_cloud_nameCloud_textSize">16sp</dimen>
+
+    <!-- profile age gender layout -->
+    <dimen name="profile_age_gender_box_width">700dp</dimen>
+    <dimen name="profile_age_gender_box_height">400dp</dimen>
+    <dimen name="profile_age_gender_box_marginLeft">160dp</dimen>
+    <dimen name="profile_age_gender_box_marginTop">85dp</dimen>
+    <dimen name="profile_age_gender_box_maxWidth">709dp</dimen>
+    <dimen name="profile_age_gender_box_paddingBottom">55dp</dimen>
+    <dimen name="profile_age_gender_box_paddingLeft">35dp</dimen>
+    <dimen name="profile_age_gender_box_paddingRight">35dp</dimen>
+    <dimen name="profile_genderBoy_width">180dp</dimen>
+    <dimen name="profile_age_gender_fontTextView2_height">80dp</dimen>
+    <dimen name="profile_age_gender_fontTextView2_textSize">33dp</dimen>
+    <dimen name="profile_age_gender_fontTextView2_minShrinkSize">24dp</dimen>
+    <dimen name="profile_age_gender_LinearLayout_marginTop">10dp</dimen>
+    <dimen name="profile_age_gender_ImageView_marginLeft">30dp</dimen>
+    <dimen name="profile_age_gender_ImageView_marginTop">200dp</dimen>
+
+    <!-- profile birthday layout -->
+    <dimen name="profile_birthday_box_width">700dp</dimen>
+    <dimen name="profile_birthday_box_height">400dp</dimen>
+    <dimen name="profile_birthday_box_marginLeft">160dp</dimen>
+    <dimen name="profile_birthday_box_marginTop">85dp</dimen>
+    <dimen name="profile_birthday_box_maxWidth">709dp</dimen>
+    <dimen name="profile_birthday_box_paddingBottom">40dp</dimen>
+    <dimen name="profile_birthday_box_paddingLeft">30dp</dimen>
+    <dimen name="profile_birthday_box_paddingRight">30dp</dimen>
+    <dimen name="profile_birthday_fontTextView1_height">80dp</dimen>
+    <dimen name="profile_birthday_fontTextView1_textSize">33dp</dimen>
+    <dimen name="profile_birthday_fontTextView1_minShrinkSize">22dp</dimen>
+    <dimen name="profile_birthday_dayValue_textSize">86dp</dimen>
+    <dimen name="profile_birthday_dayValue_width">86dp</dimen>
+    <dimen name="profile_birthday_ImageView_paddingRight">60dp</dimen>
+    <dimen name="profile_birthday_ImageView_paddingTop">150dp</dimen>
+    <dimen name="profile_birthday_UpArrow_width">75dp</dimen>
+    <dimen name="profile_birthday_UpArrow_height">70dp</dimen>
+    <dimen name="profile_birthday_date_textSize">60dp</dimen>
+    <dimen name="profile_birthday_year_marginLeft">170dp</dimen>
+    <!-- profile birthday layout -->
+    <dimen name="profile_birthday_Value_width">120dp</dimen>
+    <dimen name="profile_birthday_Value_height">100dp</dimen>
+    <dimen name="profile_birthday_LinearLayout_paddingLeft">80dp</dimen>
+    <dimen name="profile_birthday_TextView1_marginRight">90dp</dimen>
+    <dimen name="profile_birthday_TextView2_marginLeft">20dp</dimen>
+    <dimen name="profile_birthday_TextView2_paddingLeft">20dp</dimen>
+    <dimen name="profile_birthday_TextView3_paddingLeft">125dp</dimen>
+    <dimen name="profile_birthday_TextView1_textSize">24dp</dimen>
+    <dimen name="profile_birthday_date_separator_padding">5dp</dimen>
+
+    <!-- profile edit cell layout -->
+    <dimen name="profile_edit_cell_marginBottom">3dp</dimen>
+    <dimen name="profile_edit_cell_marginLeft">25dp</dimen>
+    <dimen name="profile_edit_cell_marginRight">25dp</dimen>
+    <dimen name="profile_edit_cell_marginTop">3dp</dimen>
+    <dimen name="profile_edit_cell_picto_marginRight">30dp</dimen>
+    <dimen name="profile_edit_cell_picto_width">60dp</dimen>
+    <dimen name="profile_edit_cell_modifier_width">140dp</dimen>
+    <dimen name="profile_edit_cell_modifier_height">60dp</dimen>
+    <dimen name="profile_edit_cell_cellText_textsize">32dp</dimen>
+    <dimen name="profile_edit_cell_modifier_marginLeft">30dp</dimen>
+    <dimen name="profile_edit_cell_modifier_textsize">16dp</dimen>
+
+    <!-- profile edit layout -->
+    <dimen name="profile_edit_box_width">700dp</dimen>
+    <dimen name="profile_edit_box_height">400dp</dimen>
+    <dimen name="profile_edit_box_marginLeft">160dp</dimen>
+    <dimen name="profile_edit_box_marginTop">85dp</dimen>
+    <dimen name="profile_edit_box_maxWidth">709dp</dimen>
+    <dimen name="profile_edit_box_paddingBottom">50dp</dimen>
+    <dimen name="profile_edit_box_paddingLeft">30dp</dimen>
+    <dimen name="profile_edit_box_paddingRight">30dp</dimen>
+    <dimen name="profile_edit_menuTextView_height">85dp</dimen>
+    <dimen name="profile_edit_menuTextView_textSize">33dp</dimen>
+    <dimen name="profile_edit_menuTextView_minShrinkSize">22dp</dimen>
+    <dimen name="profile_edit_ImageView_marginLeft">30dp</dimen>
+    <dimen name="profile_edit_ImageView_marginTop">200dp</dimen>
+    <dimen name="profile_edit_ImageView_width">150dp</dimen>
+    <dimen name="profile_edit_ImageView_height">150dp</dimen>
+
+    <!-- profile menu layout -->
+    <dimen name="profile_menu_ImageView_marginLeft">860dp</dimen>
+    <dimen name="profile_menu_ImageView_marginTop">240dp</dimen>
+    <dimen name="profile_menu_ImageView_width">200dp</dimen>
+    <dimen name="profile_menu_ImageView_height">200dp</dimen>
+    <dimen name="profile_menu_box_width">700dp</dimen>
+    <dimen name="profile_menu_box_height">420dp</dimen>
+    <dimen name="profile_menu_box_marginLeft">160dp</dimen>
+    <dimen name="profile_menu_box_marginTop">85dp</dimen>
+    <dimen name="profile_menu_box_maxWidth">709dp</dimen>
+    <dimen name="profile_menu_box_paddingBottom">53dp</dimen>
+    <dimen name="profile_menu_box_paddingLeft">35dp</dimen>
+    <dimen name="profile_menu_box_paddingRight">35dp</dimen>
+    <dimen name="profile_menu_fontTextView1_height">85dp</dimen>
+    <dimen name="profile_menu_fontTextView1_textSize">33dp</dimen>
+    <dimen name="profile_menu_fontTextView1_minShrinkSize">22dp</dimen>
+    <dimen name="profile_menu_menuButton1_height">63dp</dimen>
+    <dimen name="profile_menu_menuButton1_marginBottom">5dp</dimen>
+    <dimen name="profile_menu_menuButton1_marginLeft">20dp</dimen>
+    <dimen name="profile_menu_menuButton1_marginRight">20dp</dimen>
+
+    <!-- profile name layout -->
+
+    <dimen name="profile_name_box_width">700dp</dimen>
+    <dimen name="profile_name_box_height">400dp</dimen>
+    <dimen name="profile_name_box_marginLeft">160dp</dimen>
+    <dimen name="profile_name_box_marginTop">85dp</dimen>
+    <dimen name="profile_name_box_maxWidth">709dp</dimen>
+    <dimen name="profile_name_box_paddingBottom">55dp</dimen>
+    <dimen name="profile_name_box_paddingLeft">35dp</dimen>
+    <dimen name="profile_name_box_paddingRight">35dp</dimen>
+    <dimen name="profile_name_fontTextView1_height">80dp</dimen>
+    <dimen name="profile_name_fontTextView1_textSize">33dp</dimen>
+    <dimen name="profile_name_fontTextView1_minShrinkSize">24dp</dimen>
+    <dimen name="profile_name_fontEditText1_marginLeft">20dp</dimen>
+    <dimen name="profile_name_fontEditText1_marginRight">20dp</dimen>
+    <dimen name="profile_name_fontEditText1_marginTop">10dp</dimen>
+    <dimen name="profile_name_fontEditText1_textSize">51dp</dimen>
+    <dimen name="profile_name_ImageView1_marginLeft">800dp</dimen>
+    <dimen name="profile_name_ImageView1_marginTop">200dp</dimen>
+    <dimen name="profile_name_ImageView1_width">220dp</dimen>
+    <dimen name="profile_name_ImageView1_height">220dp</dimen>
+
+    <!-- profile program detail cell layout -->
+    <dimen name="profile_program_detail_cell_fontTextView1_marginBottom">10dp</dimen>
+    <dimen name="profile_program_detail_cell_fontTextView1_marginLeft">10dp</dimen>
+    <dimen name="profile_program_detail_cell_fontTextView1_marginTop">10dp</dimen>
+    <dimen name="profile_program_detail_cell_fontTextView1_textSize">17dp</dimen>
+    <dimen name="profile_program_detail_cell_dot1_width">50dp</dimen>
+    <dimen name="profile_program_detail_cell_dot1_marginTop">15dp</dimen>
+    <dimen name="profile_program_detail_cell_dot2_marginLeft">10dp</dimen>
+    <dimen name="profile_program_detail_cell_fontTextView2_marginBottom">10dp</dimen>
+    <dimen name="profile_program_detail_cell_fontTextView2_marginLeft">15dp</dimen>
+    <dimen name="profile_program_detail_cell_fontTextView2_marginTop">10dp</dimen>
+    <dimen name="profile_program_detail_cell_fontTextView2_marginRight">10dp</dimen>
+    <dimen name="profile_program_detail_cell_fontTextView2_textSize">15dp</dimen>
+    <dimen name="profile_layout_marginRight">108dp</dimen>
+    <dimen name="profile_layout_marginTop">18dp</dimen>
+    <dimen name="profile_layout_marginBottom">44dp</dimen>
+    <dimen name="profile_layout_marginLeft">15dp</dimen>
+    <dimen name="profile_layout_maxWidth">413dp</dimen>
+    <dimen name="profile_listView_marginRight">20dp</dimen>
+    <dimen name="profile_listView_marginTop">45dp</dimen>
+    <dimen name="profile_listView_marginBottom">25dp</dimen>
+    <dimen name="profile_listView_marginLeft">20dp</dimen>
+    <dimen name="profile_listView_dividerHeight">1dp</dimen>
+    <dimen name="profile_critereDetail_marginRight">20dp</dimen>
+    <dimen name="profile_critereDetail_marginTop">45dp</dimen>
+    <dimen name="profile_critereDetail_marginBottom">25dp</dimen>
+    <dimen name="profile_critereDetail_marginLeft">20dp</dimen>
+    <dimen name="profile_critereName_paddingRight">10dp</dimen>
+    <dimen name="profile_critereName_marginTop">5dp</dimen>
+    <dimen name="profile_critereName_paddingBottom">5dp</dimen>
+    <dimen name="profile_critereName_paddingLeft">10dp</dimen>
+    <dimen name="profile_critereName_paddingTop">5dp</dimen>
+    <dimen name="profile_critereName_textSize">12sp</dimen>
+    <dimen name="profile_critereDescription_paddingRight">10dp</dimen>
+    <dimen name="profile_critereDescription_marginTop">10dp</dimen>
+    <dimen name="profile_critereDescription_paddingBottom">15dp</dimen>
+    <dimen name="profile_critereDescription_paddingLeft">10dp</dimen>
+    <dimen name="profile_critereDescription_paddingTop">15dp</dimen>
+    <dimen name="profile_critereDescription_textSize">11sp</dimen>
+    <dimen name="profile_critereDescription_maxWidth">205dp</dimen>
+    <dimen name="profile_critereClose_marginTop">15dp</dimen>
+    <dimen name="profile_critereClose_marginRight">15dp</dimen>
+    <dimen name="profile_fontTextView_marginLeft">20dp</dimen>
+    <dimen name="profile_fontTextView_marginRight">20dp</dimen>
+    <dimen name="profile_fontTextView_textSize">18sp</dimen>
+    <dimen name="profile_fontTextView_minShrinkSize">12sp</dimen>
+    <dimen name="profile_text_img_height">55dp</dimen>
+    <dimen name="profile_img_paddingBottom">80dp</dimen>
+    <dimen name="profile_img_paddingRight">10dp</dimen>
+
+    <!-- profile program detail layout -->
+    <dimen name="profile_program_detail_box_width">700dp</dimen>
+    <dimen name="profile_program_detail_box_height">400dp</dimen>
+    <dimen name="profile_program_detail_box_marginBottom">66dp</dimen>
+    <dimen name="profile_program_detail_box_marginLeft">160dp</dimen>
+    <dimen name="profile_program_detail_box_marginRight">155dp</dimen>
+    <dimen name="profile_program_detail_box_marginTop">85dp</dimen>
+    <dimen name="profile_program_detail_box_maxWidth">709dp</dimen>
+    <dimen name="profile_program_detail_listView1_marginBottom">25dp</dimen>
+    <dimen name="profile_program_detail_listView1_marginLeft">31dp</dimen>
+    <dimen name="profile_program_detail_listView1_marginRight">31dp</dimen>
+    <dimen name="profile_program_detail_listView1_marginTop">70dp</dimen>
+    <dimen name="profile_program_detail_listView1_dividerHeight">1dp</dimen>
+    <dimen name="profile_program_detail_fontTextView1_marginLeft">35dp</dimen>
+    <dimen name="profile_program_detail_fontTextView1_marginRight">35dp</dimen>
+    <dimen name="profile_program_detail_fontTextView1_height">45dp</dimen>
+    <dimen name="profile_program_detail_fontTextView1_textSize">33dp</dimen>
+    <dimen name="profile_program_detail_fontTextView1_minShrinkSize">24dp</dimen>
+    <dimen name="profile_program_detail_ImageView_paddingBottom">215dp</dimen>
+    <dimen name="profile_program_detail_ImageView_paddingRight">50dp</dimen>
+    <dimen name="profile_program_detail_setting_width">400dp</dimen>
+    <dimen name="profile_program_detail_setting_height">22dp</dimen>
+
+    <!-- profile program layout -->
+    <dimen name="profile_program_box_width">700dp</dimen>
+    <dimen name="profile_program_box_height">400dp</dimen>
+    <dimen name="profile_program_box_marginLeft">160dp</dimen>
+    <dimen name="profile_program_box_marginTop">85dp</dimen>
+    <dimen name="profile_program_box_maxWidth">709dp</dimen>
+    <dimen name="profile_program_box_paddingBottom">55dp</dimen>
+    <dimen name="profile_program_box_paddingLeft">35dp</dimen>
+    <dimen name="profile_program_box_paddingRight">35dp</dimen>
+    <dimen name="profile_program_fontTextView1_height">80dp</dimen>
+    <dimen name="profile_program_fontTextView1_textSize">33dp</dimen>
+    <dimen name="profile_program_fontTextView1_minShrinkSize">24dp</dimen>
+    <dimen name="profile_program_menuButton1_margin">20dp</dimen>
+    <dimen name="profile_program_menuButton3_marginBottom">15dp</dimen>
+    <dimen name="profile_program_ImageView_marginLeft">850dp</dimen>
+    <dimen name="profile_program_ImageView_marginTop">250dp</dimen>
+    <dimen name="profile_program_ImageView_width">250dp</dimen>
+    <dimen name="profile_program_ImageView_height">250dp</dimen>
+
+    <!-- menu  button -->
+    <dimen name="MenuButton_height">65dp</dimen>
+    <dimen name="MenuButton_TextSize">22dp</dimen>
+    <dimen name="MenuButton_paddingLeft">10dp</dimen>
+
+    <!-- profile select layout -->
+    <dimen name="profile_select_box_width">700dp</dimen>
+    <dimen name="profile_select_box_height">450dp</dimen>
+    <dimen name="profile_select_box_marginLeft">160dp</dimen>
+    <dimen name="profile_select_box_marginTop">85dp</dimen>
+    <dimen name="profile_select_box_maxWidth">709dp</dimen>
+    <dimen name="profile_select_box_paddingBottom">55dp</dimen>
+    <dimen name="profile_select_box_paddingLeft">35dp</dimen>
+    <dimen name="profile_select_box_paddingRight">35dp</dimen>
+    <dimen name="profile_select_fontTextView1_height">80dp</dimen>
+    <dimen name="profile_select_fontTextView1_textSize">33dp</dimen>
+    <dimen name="profile_select_fontTextView1_minShrinkSize">24dp</dimen>
+    <dimen name="profile_select_menuButton1_marginLeft">20dp</dimen>
+    <dimen name="profile_select_menuButton1_marginTop">30dp</dimen>
+    <dimen name="profile_select_menuButton1_marginBottom">25dp</dimen>
+    <dimen name="profile_select_menuButton3_marginBottom">15dp</dimen>
+    <dimen name="profile_select_ImageView_marginLeft">880dp</dimen>
+    <dimen name="profile_select_ImageView_marginTop">350dp</dimen>
+
+    <!-- profile session duration layout -->
+    <dimen name="profile_session_duration_box_width">700dp</dimen>
+    <dimen name="profile_session_duration_box_height">400dp</dimen>
+    <dimen name="profile_session_downArrow_width">80dp</dimen>
+    <dimen name="profile_session_downArrow_height">75dp</dimen>
+    <dimen name="profile_session_duration_box_marginLeft">160dp</dimen>
+    <dimen name="profile_session_duration_box_marginTop">85dp</dimen>
+    <dimen name="profile_session_duration_box_maxWidth">709dp</dimen>
+    <dimen name="profile_session_duration_box_paddingBottom">40dp</dimen>
+    <dimen name="profile_session_duration_box_paddingLeft">45dp</dimen>
+    <dimen name="profile_session_duration_box_paddingRight">45dp</dimen>
+    <dimen name="profile_session_duration_fontTextView1_height">80dp</dimen>
+    <dimen name="profile_session_duration_fontTextView1_textSize">33dp</dimen>
+    <dimen name="profile_session_duration_fontTextView1_minShrinkSize">24dp</dimen>
+    <dimen name="profile_session_duration_sessionDuration_textSize">60dp</dimen>
+    <dimen name="profile_session_duration_sessionMinutes_textSize">50dp</dimen>
+    <dimen name="profile_session_duration_sessionMinutes_marginLeft">10dp</dimen>
+    <dimen name="profile_session_duration_sessionMinutes_paddingBottom">5dp</dimen>
+    <dimen name="profile_session_duration_LinearLayout_width">230dp</dimen>
+    <dimen name="profile_session_duration_LinearLayout_marginLeft">32dp</dimen>
+    <dimen name="profile_session_duration_lang_textSize">60dp</dimen>
+    <dimen name="profile_session_duration_ImageView_paddingRight">60dp</dimen>
+    <dimen name="profile_session_duration_ImageView_paddingTop">150dp</dimen>
+    <dimen name="profile_session_duration_ImageView_width">150dp</dimen>
+    <dimen name="profile_session_duration_ImageView_height">150dp</dimen>
+
+    <!-- rating extract layout -->
+    <dimen name="rating_extract_videoSkip_marginBottom">140dp</dimen>
+    <dimen name="rating_extract_videoSkip_marginRight">80dp</dimen>
+
+    <!-- rating layout -->
+    <dimen name="rating_rating_bill_marginLeft">50dp</dimen>
+    <dimen name="rating_rating_bill_marginTop">350dp</dimen>
+    <dimen name="rating_rating_bleue_marginTop">300dp</dimen>
+    <dimen name="rating_rating_bleue_marginLeft">750dp</dimen>
+    <dimen name="rating_rating_bubulle_marginLeft">750dp</dimen>
+    <dimen name="rating_rating_bubulle_marginTop">300dp</dimen>
+    <dimen name="rating_rating_claude_marginLeft">80dp</dimen>
+    <dimen name="rating_rating_claude_marginTop">400dp</dimen>
+    <dimen name="rating_rating_dora_marginLeft">50dp</dimen>
+    <dimen name="rating_rating_dora_marginTop">350dp</dimen>
+    <dimen name="rating_rating_diego_marginLeft">750dp</dimen>
+    <dimen name="rating_rating_diego_marginTop">300dp</dimen>
+    <dimen name="rating_rating_melo_marginLeft">750dp</dimen>
+    <dimen name="rating_rating_melo_marginTop">300dp</dimen>
+    <dimen name="rating_rating_ni_hao_marginLeft">750dp</dimen>
+    <dimen name="rating_rating_ni_hao_marginTop">300dp</dimen>
+    <dimen name="rating_rating_poco_marginLeft">750dp</dimen>
+    <dimen name="rating_rating_poco_marginTop">300dp</dimen>
+    <dimen name="rating_rating_umi_marginLeft">750dp</dimen>
+    <dimen name="rating_rating_umi_marginTop">300dp</dimen>
+    <dimen name="rating_rating_wonder_marginLeft">750dp</dimen>
+    <dimen name="rating_rating_wonder_marginTop">300dp</dimen>
+    <dimen name="rating_header_textview_marginTop">5dp</dimen>
+    <dimen name="rating_header_textview_maxHeight">185dp</dimen>
+    <dimen name="rating_header_textview_maxWidth">629dp</dimen>
+    <dimen name="rating_header_textview_paddingLeft">150dp</dimen>
+    <dimen name="rating_header_textview_paddingRight">150dp</dimen>
+    <dimen name="rating_header_textview_paddingTop">35dp</dimen>
+    <dimen name="rating_header_textview_textSize">33dp</dimen>
+    <dimen name="rating_LinearLayout_paddingBottom">40dp</dimen>
+    <dimen name="rating_button1_paddingLeft">170dp</dimen>
+    <dimen name="rating_button1_textSize">80dp</dimen>
+    <dimen name="rating_header_textview_width">676dp</dimen>
+    <dimen name="rating_header_textview_height">200dp</dimen>
+    <dimen name="rating_LinearLayout_height">350dp</dimen>
+    <dimen name="rating_button1_width">441dp</dimen>
+    <dimen name="rating_button1_height">155dp</dimen>
+
+    <!-- session over layout -->
+    <dimen name="session_over_box_width">700dp</dimen>
+    <dimen name="session_over_box_height">450dp</dimen>
+    <dimen name="session_over_box_maxWidth">709dp</dimen>
+    <dimen name="session_over_box_paddingBottom">60dp</dimen>
+    <dimen name="session_over_box_paddingLeft">40dp</dimen>
+    <dimen name="session_over_box_paddingRight">40dp</dimen>
+    <dimen name="session_over_fontTextView1_height">80dp</dimen>
+    <dimen name="session_over_fontTextView1_textSize">42dp</dimen>
+    <dimen name="session_over_fontTextView1_minShrinkSize">32dp</dimen>
+    <dimen name="session_over_menuButton1_marginLeft">10dp</dimen>
+    <dimen name="session_over_menuButton1_marginTop">38dp</dimen>
+    <dimen name="session_over_menuButton1_marginBottom">20dp</dimen>
+    <dimen name="session_over_menuButton3_marginBottom">20dp</dimen>
+    <dimen name="session_over_menuButton2_marginBottom">20dp</dimen>
+    <dimen name="session_over_menuButton_layout_height">320dp</dimen>
+    <dimen name="session_over_Qr_width">130dp</dimen>
+    <dimen name="session_over_Qr_height">130dp</dimen>
+    <dimen name="session_over_Qr_marginBottom">5dp</dimen>
+    <dimen name="session_over_Qr_marginTop">10dp</dimen>
+    <dimen name="session_over_letter_des_width">130dp</dimen>
+    <dimen name="session_over_letter_des_textSize">14dp</dimen>
+    <dimen name="session_over_image1_width">80dp</dimen>
+    <dimen name="session_over_image1_height">80dp</dimen>
+    <dimen name="session_over_image1_marginTop">200dp</dimen>
+    <dimen name="session_over_image1_marginLeft">45dp</dimen>
+    <dimen name="session_over_image2_width">80dp</dimen>
+    <dimen name="session_over_image2_height">120dp</dimen>
+    <dimen name="session_over_image2_marginRight">15dp</dimen>
+    <dimen name="session_over_layout_margin">10dp</dimen>
+
+    <!-- toast layout -->
+    <dimen name="toast_padding">30dp</dimen>
+    <dimen name="toast_title_textsize">35dp</dimen>
+
+    <!-- user center layout -->
+    <dimen name="user_center_user_icon_marginLeft">50dp</dimen>
+    <dimen name="user_center_user_icon_marginTop">80dp</dimen>
+    <dimen name="user_center_name_tv_marginTop">35dp</dimen>
+    <dimen name="user_center_name_tv_marginLeft">40dp</dimen>
+    <dimen name="user_center_user_phone_marginTop">5dp</dimen>
+    <dimen name="user_center_recharge_btn_marginTop">10dp</dimen>
+
+    <!-- video menu layout -->
+    <dimen name="video_menu_RelativeLayout_marginLeft">160dp</dimen>
+    <dimen name="video_menu_RelativeLayout_marginTop">85dp</dimen>
+    <dimen name="video_menu_RelativeLayout_marginBottom">66dp</dimen>
+    <dimen name="video_menu_RelativeLayout_marginRight">155dp</dimen>
+    <dimen name="video_menu_videoView1_marginLeft">28dp</dimen>
+    <dimen name="video_menu_videoView1_marginTop">30dp</dimen>
+    <dimen name="video_menu_videoView1_marginBottom">30dp</dimen>
+    <dimen name="video_menu_videoView1_marginRight">28dp</dimen>
+    <dimen name="video_menu_tutorial_height">320dp</dimen>
+    <dimen name="video_menu_tutorial_width">580dp</dimen>
+    <!-- video menu layout -->
+    <dimen name="video_menu_RelativeLayout_width">600dp</dimen>
+    <dimen name="video_menu_RelativeLayout_height">400dp</dimen>
+    <dimen name="video_menu_height">600dp</dimen>
+
+    <!-- video back player layout -->
+    <dimen name="back_player_locoplayer_footer_height">160dp</dimen>
+
+    <!-- change userinfo box -->
+    <dimen name="change_userinfo_form_width">500dp</dimen>
+    <dimen name="change_userinfo_form_height">360dp</dimen>
+    <dimen name="change_userinfo_form_padding">23dp</dimen>
+    <dimen name="change_userinfo_form_et_marginBottom">10dp</dimen>
+    <dimen name="change_userinfo_form_et_paddingLeft">10dp</dimen>
+    <dimen name="change_userinfo_form_et_height">40dp</dimen>
+    <dimen name="change_userinfo_form_et_textsize">18dp</dimen>
+    <dimen name="change_userinfo_form_btn_margin">7dp</dimen>
+    <dimen name="change_userinfo_form_btn_height">64dp</dimen>
+    <dimen name="change_btn_width">90dp</dimen>
+    <dimen name="dredge_method1_btn_width">150dp</dimen>
+    <dimen name="dredge_method2_code_width">110dp</dimen>
+    <dimen name="not_remind_marginBottom">35dp</dimen>
+    <dimen name="hint_textsize">16dp</dimen>
+    <dimen name="hint_textsize1">12dp</dimen>
+    <dimen name="bingding_recovery_password_form_height">270dp</dimen>
+    <dimen name="recovery_password_reset_form_height">180dp</dimen>
+    <dimen name="bingding_recovery_password_textSize">24dp</dimen>
+    <dimen name="bingding_recovery_textSize">18dp</dimen>
+    <dimen name="recovery_toggle_height">55dp</dimen>
+    <dimen name="pwd_layout_marginTop">5dp</dimen>
+    <dimen name="bingding_form_marginTop">15dp</dimen>
+    <dimen name="pwd_layout_marginLeft">10dp</dimen>
+    <dimen name="pwd_layout_marginRight">2dp</dimen>
+    <dimen name="newPassword_marginRight">10dp</dimen>
+    <dimen name="password_marginTop">8dp</dimen>
+    <dimen name="menu_back_marginBottom">22dp</dimen>
+    <dimen name="okBtn_height">50dp</dimen>
+    <dimen name="new_password_form_height">250dp</dimen>
+    <dimen name="userinfo_form_height">310dp</dimen>
+    <dimen name="cur_password_margin">5dp</dimen>
+    <dimen name="new_password_marginRight">15dp</dimen>
+    <dimen name="password_layout_margin">10dp</dimen>
+    <dimen name="change_phone_textsize">22dp</dimen>
+    <dimen name="change_phone_text_marginTop">15dp</dimen>
+
+    <!-- user_center_info -->
+    <dimen name="Pwd_check_size">10dp</dimen>
+    <dimen name="Pwd_check_text_size">12dp</dimen>
+    <dimen name="user_icon_parent_marginLeft">10dp</dimen>
+    <dimen name="user_icon_parent_marginTop">25dp</dimen>
+    <dimen name="user_icon_marginTop">30dp</dimen>
+    <dimen name="user_icon_width">62dp</dimen>
+    <dimen name="user_icon_height">62dp</dimen>
+    <dimen name="user_info_text_size">13dp</dimen>
+    <dimen name="user_name_marginLeft">5dp</dimen>
+    <dimen name="user_info_marginLeft">7dp</dimen>
+    <dimen name="user_info_marginTop">13dp</dimen>
+    <dimen name="user_info_edit_marginLeft">5dp</dimen>
+    <dimen name="user_info_edit_marginTop">13dp</dimen>
+    <dimen name="pwd_check_width">130dp</dimen>
+    <dimen name="layout_marginTop">10dp</dimen>
+    <dimen name="change_user_name_marginTop">10dp</dimen>
+    <dimen name="change_userInfo_btn_marginTop">0dp</dimen>
+    <dimen name="change_userInfo_btn_marginLeft">5dp</dimen>
+    <dimen name="qrcode_marginBottom">30dp</dimen>
+    <dimen name="qrcode_marginLeft">15dp</dimen>
+    <dimen name="qrcode_marginRight">5dp</dimen>
+    <dimen name="qrcode_desc_img_width">18dp</dimen>
+    <dimen name="qrcode_desc_img_height">18dp</dimen>
+    <dimen name="qrcode_desc_img_marginRight">5dp</dimen>
+    <dimen name="qrcode_focus_marginBottom">30dp</dimen>
+    <dimen name="qrcode_focus_marginTop">2dp</dimen>
+    <dimen name="qrcode_desc_text_size">13dp</dimen>
+    <dimen name="parent_control_text_size">25dp</dimen>
+    <dimen name="parent_control_btn_height">45dp</dimen>
+    <dimen name="parent_control_btn_width">90dp</dimen>
+    <dimen name="parent_control_btn_marginTop">6dp</dimen>
+
+    <!-- replenish -->
+    <dimen name="change_btn_layout_marginTop">49dp</dimen>
+    <dimen name="change_userinfo_btn_height">20.5dp</dimen>
+    <dimen name="chang_userinfo_btn_marginTop">1dp</dimen>
+    <dimen name="chang_userinfo_btn_size">18dp</dimen>
+    <dimen name="password_check_marginTop">52dp</dimen>
+    <dimen name="recharge_btn_marginTop">15dp</dimen>
+    <dimen name="chang_username_btn_marginTop">5dp</dimen>
+    <dimen name="chang_btn_marginTop">4dp</dimen>
+    <dimen name="change_btn_layout_marginRight">2dp</dimen>
+
+    <!-- login_user_info_des -->
+    <dimen name="user_info_des_marginTop">80dp</dimen>
+    <dimen name="user_info_des_marginleft">105dp</dimen>
+    <dimen name="user_info_des_text_size">18dp</dimen>
+    <dimen name="login_user_icon_parent_marginLeft">120dp</dimen>
+    <dimen name="new_login_user_icon_marginLeft">25dp</dimen>
+    <dimen name="new_login_user_icon_marginTop">8dp</dimen>
+    <dimen name="login_gif_img_marginLeft">15dp</dimen>
+    <dimen name="login_gif_img_marginRight">20dp</dimen>
+    <dimen name="login_gif_img_width">35dp</dimen>
+    <dimen name="login_gif_img_height">35dp</dimen>
+
+    <!-- renewal layout -->
+    <dimen name="user_info_form_marginTop">60dp</dimen>
+    <dimen name="dredge_edit_marginTop">20dp</dimen>
+    <dimen name="center_lenearlayout_marginBottom">30dp</dimen>
+    <dimen name="center_lenearlayout_marginTop">10dp</dimen>
+    <dimen name="method_layout_marginTop">10dp</dimen>
+    <dimen name="dredge_method2_info1_marginLeft">5dp</dimen>
+    <dimen name="dredge_method2_info1_marginTop">2dp</dimen>
+    <dimen name="dredge_qrcode_marginLeft">10dp</dimen>
+    <dimen name="dredge_qrcode_marginBottom">30dp</dimen>
+    <dimen name="dredge_qrcode_marginRight">5dp</dimen>
+    <dimen name="dredge_qrcode_img_width">100dp</dimen>
+    <dimen name="dredge_qrcode_img_height">100dp</dimen>
+    <dimen name="dredge_des_textsize">18dp</dimen>
+    <dimen name="dredge_text_height">45dp</dimen>
+    <dimen name="dredge_edit_text_marginTop">25dp</dimen>
+
+    <!--
+    title cloud layout
+    <dimen name="title_cloud_width">164dp</dimen>
+    <dimen name="title_cloud_height">80dp</dimen>
+    <dimen name="title_cloud_paddingTop">10dp</dimen>
+    <dimen name="title_cloud_textSize">22dp</dimen>
+    <dimen name="title_cloud_paddingRight">6.6dp</dimen>
+
+    -->
+    <dimen name="user_center_title_marginLeft">6.6dp</dimen>
+    <dimen name="user_center_title_marginTop">15dp</dimen>
+
+    <!-- title cloud layout -->
+    <dimen name="title_cloud_width">130dp</dimen>
+    <dimen name="title_cloud_bingding_width">160dp</dimen>
+    <dimen name="title_cloud_height">80dp</dimen>
+    <dimen name="title_cloud_bingding_height">90dp</dimen>
+    <dimen name="title_cloud_paddingTop">10dp</dimen>
+    <dimen name="title_cloud_textSize">26dp</dimen>
+    <dimen name="title_cloud_paddingRight">5dp</dimen>
+
+    <!-- account_info_layout -->
+    <dimen name="account_devices_marginTop">60dp</dimen>
+    <dimen name="account_devices_marginLeft">40dp</dimen>
+    <!-- <dimen name="account_name_marginTop">60dp</dimen> -->
+    <dimen name="account_name_marginTop">40dp</dimen>
+    <dimen name="account_name_marginLeft">80dp</dimen>
+    <dimen name="account_edit_marginTop">40dp</dimen>
+    <dimen name="account_edit_marginLeft">40dp</dimen>
+    <dimen name="account_hint_marginLeft">40dp</dimen>
+    <dimen name="account_hint_marginBottom">40dp</dimen>
+    <dimen name="account_title_marginRight">50dp</dimen>
+    <dimen name="account_title_marginTop">40dp</dimen>
+    <dimen name="account_form_width">640dp</dimen>
+    <dimen name="account_form_height">400dp</dimen>
+    <dimen name="account_agreement_form_paddingBottom">55dp</dimen>
+    <dimen name="account_agreement_form_marginTop">60dp</dimen>
+    <dimen name="account_agreement_form_padding">10dp</dimen>
+    <dimen name="account_versiontv_textSize">21dp</dimen>
+    <dimen name="account_phone_marginTop">40dp</dimen>
+    <dimen name="account_phone_marginLeft">80dp</dimen>
+
+    <!-- pay_layout -->
+    <dimen name="pay_parent_layout_marginTop_Bottom">80dp</dimen>
+    <dimen name="pay_parent_layout_marginLeft_Right">76dp</dimen>
+    <dimen name="price_365_marginRight">38.4dp</dimen>
+    <dimen name="price_365_marginTop">80dp</dimen>
+    <dimen name="price_365_text_size">35dp</dimen>
+    <dimen name="price_year_text_size">75dp</dimen>
+    <dimen name="price_year_marginTop">24dp</dimen>
+    <dimen name="price_365_des_marginTop">20dp</dimen>
+    <dimen name="rl_30_width">220.8dp</dimen>
+    <dimen name="rl_30_height">170dp</dimen>
+    <dimen name="price_30_marginRight_Top">30dp</dimen>
+    <dimen name="price_30_text_size">20dp</dimen>
+    <dimen name="price_month_text_size">30dp</dimen>
+    <dimen name="price_30_des_marginBottom">30dp</dimen>
+    <dimen name="price_30_des_text_size">16dp</dimen>
+    <dimen name="ktm_layout_width">173dp</dimen>
+    <dimen name="ktm_layout_height">170dp</dimen>
+    <dimen name="ktm_text_marginTop">40dp</dimen>
+    <dimen name="ktm_text_size">35dp</dimen>
+    <dimen name="ktm_des_marginTop">10dp</dimen>
+    <dimen name="ktm_des_marginLeft_Right">14.4dp</dimen>
+    <dimen name="lineSpacingExtra">3dp</dimen>
+    <dimen name="gift_des_marginTop">140dp</dimen>
+    <dimen name="gift_des_marginLeft_Right">33.6dp</dimen>
+    <dimen name="pay_menu_back_marginBottom">5dp</dimen>
+    <dimen name="pay_title_marginTop">10dp</dimen>
+    <dimen name="pay_title_marginRight">19.2dp</dimen>
+
+    <!-- pay_webview_layout -->
+    <dimen name="pay_webview_parent_width">640dp</dimen>
+    <dimen name="pay_webview_parent_height">670dp</dimen>
+    <dimen name="pay_webview_parent_marginBottom">60dp</dimen>
+    <dimen name="pay_webview_marginTop">16dp</dimen>
+    <dimen name="pay_webview_marginBottom">30dp</dimen>
+    <dimen name="pay_webview_marginLeft">22dp</dimen>
+    <dimen name="pay_webview_marginRight">22dp</dimen>
+    <dimen name="pay_close_marginBottom">360dp</dimen>
+    <dimen name="pay_close_marginLeft">600dp</dimen>
+
+    <!-- payment_method_layout -->
+    <dimen name="payment_parent_width">428dp</dimen>
+    <dimen name="payment_parent_height">342.5dp</dimen>
+    <dimen name="payment_parent_marginBottom">48.6dp</dimen>
+    <dimen name="payment_parent_marginTop">64.8dp</dimen>
+    <dimen name="payment_parent_marginLeft_Right">93dp</dimen>
+    <dimen name="payment_marginTop">20.2dp</dimen>
+    <dimen name="payment_text_size">28sp</dimen>
+    <dimen name="payment_img_marginLeft">36.5dp</dimen>
+    <dimen name="pay_money_text_size">18sp</dimen>
+    <dimen name="ll_solid_height">1dp</dimen>
+    <dimen name="ll_solid_marginTop_Bottom">8dp</dimen>
+    <dimen name="ll_solid_marginRight_Left">36.5dp</dimen>
+    <dimen name="payment_method_marginBottom">16dp</dimen>
+    <dimen name="pay_btn_width">306.6dp</dimen>
+    <dimen name="pay_btn_height">46.5dp</dimen>
+    <dimen name="pay_btn_marginTop">20dp</dimen>
+    <dimen name="pay_img_marginLeft">21.9dp</dimen>
+    <dimen name="pay_text_marginLeft">43.8dp</dimen>
+    <dimen name="pay_text_size">24sp</dimen>
+
+    <!-- alipay_pay_layoout -->
+    <dimen name="alipay_parent_width">556dp</dimen>
+    <dimen name="alipay_parent_height">616dp</dimen>
+    <dimen name="alipay_img_marginTop">30.9dp</dimen>
+    <dimen name="alipay_img_marginLeft">57dp</dimen>
+    <dimen name="alipay_text_size">25.8dp</dimen>
+    <dimen name="alipay_qrcode_width">190dp</dimen>
+    <dimen name="alipay_qrcode_height">206dp</dimen>
+    <dimen name="alipay_qrcode_marginTop">25.8dp</dimen>
+    <dimen name="alipay_qrcode_marginLeft">26.6dp</dimen>
+    <dimen name="alipay_des_marginLeft">33.3dp</dimen>
+    <dimen name="alipay_des_marginBottom">87.6dp</dimen>
+    <dimen name="alipay_des_textsize">19dp</dimen>
+    <dimen name="alipay_qrcode_img_marginTop">30.9dp</dimen>
+    <dimen name="alipay_qrcode_img_marginBottom">91.5dp</dimen>
+    <dimen name="alipay_qrcode_img_marginRight">48.5dp</dimen>
+
+    <!-- merge from ivmall player library -->
+    <dimen name="loading_text_size">18sp</dimen>
+    <dimen name="loading_speed_size">20sp</dimen>
+
+    <!-- pay_finish_layout -->
+    <dimen name="alipay_finish_text_marginTop">70dp</dimen>
+    <dimen name="alipay_finish_textsize">30dp</dimen>
+    <dimen name="alipay_pay_hint_marginTop">20dp</dimen>
+    <dimen name="alipay_pay_hint_textsize">22dp</dimen>
+    <dimen name="payok_btn_width">150dp</dimen>
+    <dimen name="payok_btn_height">80dp</dimen>
+    <dimen name="dl_img_width">160dp</dimen>
+    <dimen name="dl_img_height">160dp</dimen>
+    <dimen name="dl_img_marginBottom">60dp</dimen>
+    <dimen name="dl_img_marginRight">40dp</dimen>
+
+    <!-- open_members_layout -->
+    <dimen name="frame_height">865dp</dimen>
+    <dimen name="img_width">400dp</dimen>
+    <dimen name="img_height">120dp</dimen>
+    <dimen name="open_members_form_width">520dp</dimen>
+    <dimen name="open_members_form_height">360dp</dimen>
+    <dimen name="open_members_button_width">330dp</dimen>
+    <dimen name="open_members_button_height">60dp</dimen>
+    <dimen name="video_pause_button_width">120dp</dimen>
+    <dimen name="open_members_marginTop">15dp</dimen>
+    <dimen name="video_pause_button_height">120dp</dimen>
+    <dimen name="video_skip_button_width">120dp</dimen>
+    <dimen name="video_skip_button_height">100dp</dimen>
+    <dimen name="video_menu_bar_padding">20dp</dimen>
+    <dimen name="video_duration_left_margin">10dp</dimen>
+    <dimen name="video_user_icon_marginTop">20dp</dimen>
+    <dimen name="video_user_icon_marginRight">20dp</dimen>
+    <!-- introduce -->
+    <dimen name="introduce_loading_width">70dp</dimen>
+    <dimen name="introduce_loading_height">70dp</dimen>
+    <dimen name="introduce_head_width">45dp</dimen>
+    <dimen name="introduce_head_height">45dp</dimen>
+    <dimen name="introduce_loading_marginTop">45dp</dimen>
+    <dimen name="introduce_loading_marginLeft">150dp</dimen>
+    <dimen name="introduce_head_marginTop">13dp</dimen>
+    <dimen name="introduce_head_marginLeft">14dp</dimen>
+    <dimen name="text1_size">15sp</dimen>
+    <dimen name="text2_size">15sp</dimen>
+    <dimen name="aim_marginRight">8dp</dimen>
+    <dimen name="aim_width">95dp</dimen>
+    <dimen name="aim_height">30dp</dimen>
+    <dimen name="text2_marginTop">10dp</dimen>
+    <dimen name="text1_marginBottom">5dp</dimen>
+    <dimen name="text1_marginLeft">10dp</dimen>
+    <dimen name="introduce_character_name_marginLeft">5dp</dimen>
+    <dimen name="aims_layout_marginTop">10dp</dimen>
+    <dimen name="introduce_character_name_text_size">15sp</dimen>
+    <dimen name="introduce_story_name_text_size">15sp</dimen>
+    <dimen name="introduce_story_name_marginTop">10dp</dimen>
+    <dimen name="introduce_aims_layout_marginTop">10dp</dimen>
+    <dimen name="introduce_photos_width">70dp</dimen>
+    <dimen name="introduce_photos_height">70dp</dimen>
+    <dimen name="introduce_play_name_marginLeft">8dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- more course -->
+    <dimen name="more_course_item_width">360dp</dimen>
+    <dimen name="more_course_item_height">75dp</dimen>
+    <dimen name="more_course_introduce_marginLeft">3dp</dimen>
+    <dimen name="content_title_marginTop">8dp</dimen>
+    <dimen name="content_title_layout_width">225dp</dimen>
+    <dimen name="content_aims_layout_marginTop">5dp</dimen>
+    <dimen name="content_aim_width">75dp</dimen>
+    <dimen name="content_aim_height">30dp</dimen>
+    <dimen name="series_thumb_big_height">170dp</dimen>
+    <dimen name="series_thumb_big_width">140dp</dimen>
+    <dimen name="series_thumb_big_layout_height">225dp</dimen>
+    <dimen name="series_thumb_big_marginTop">25dp</dimen>
+    <dimen name="series_thumb_big_marginLeft">5dp</dimen>
+    <dimen name="series_title_width">115dp</dimen>
+    <dimen name="series_title_height">55dp</dimen>
+    <dimen name="series_title_textSize">22dp</dimen>
+    <dimen name="more_course_menu_back_marginTop">40dp</dimen>
+    <dimen name="more_course_menu_back_marginLeft">40dp</dimen>
+    <dimen name="recyclerView_margin">18dp</dimen>
+    <dimen name="recyclerView_paddingLeft">25dp</dimen>
+    <dimen name="content_aim_text_size">13sp</dimen>
+    <dimen name="content_character_name_text_size">15sp</dimen>
+    <dimen name="content_number_width">70dp</dimen>
+    <dimen name="content_number_height">70dp</dimen>
+    <dimen name="series_up_down_width">50dp</dimen>
+    <dimen name="series_up_down_height">32dp</dimen>
+    <dimen name="series_up_marginTop">40dp</dimen>
+    <dimen name="series_padding">10dp</dimen>
+    <dimen name="series_title_marginBottom">15dp</dimen>
+    <dimen name="series_close_marginRight">40dp</dimen>
+    <dimen name="series_close_marginTop">20dp</dimen>
+
+    <!-- Controle Parental -->
+    <dimen name="controle_parental_arrow_width">70dp</dimen>
+    <dimen name="controle_parental_arrow_height">60dp</dimen>
+    <dimen name="controle_parental_arrow_marginBottom">118dp</dimen>
+    <dimen name="controle_parental_arrow_paddingTop">97dp</dimen>
+    <dimen name="controle_parental_arrow_paddingRight">0dp</dimen>
+    <dimen name="controle_parental_cloud_marginTop">5dp</dimen>
+
+    <!-- Bingding account -->
+    <dimen name="bingding_account_form_height">340dp</dimen>
+    <dimen name="bingding_img_height">100dp</dimen>
+    <dimen name="bingding_img_width">380dp</dimen>
+    <dimen name="bingding_img_marginTop">30dp</dimen>
+    <dimen name="bingding_mobileNumber_marginTop">10dp</dimen>
+    <dimen name="bingding_regBtn_layout_marginLeft">20dp</dimen>
+    <dimen name="bingding_regBtn_layout_marginRight">20dp</dimen>
+    <dimen name="bingding_regBtn_height">45dp</dimen>
+    <dimen name="bingding_text_marginTop">5dp</dimen>
+    <dimen name="bingding_recovery_password_reset_form_height">250dp</dimen>
+
+    <!-- ad_webView -->
+    <dimen name="ad_agreement_form_height">443dp</dimen>
+    <dimen name="ad_agreement_form_width">720dp</dimen>
+    <dimen name="ad_agreement_form_marginTop">30dp</dimen>
+    <dimen name="ad_agreement_form_marginBottom">66dp</dimen>
+    <dimen name="ad_agreement_form_marginLeft">100dp</dimen>
+    <dimen name="ad_agreement_form_marginRight">100dp</dimen>
+    <dimen name="ad_fontTextView_marginTop">15dp</dimen>
+    <dimen name="ad_fontTextView_textSiz">38dp</dimen>
+    <dimen name="ad_webView_marginTop">78dp</dimen>
+    <dimen name="ad_webView_marginBottom">35dp</dimen>
+    <dimen name="ad_webView_marginLeft">25dp</dimen>
+    <dimen name="ad_webView_marginRight">25dp</dimen>
+    <dimen name="ad_menu_back_marginBottom">27dp</dimen>
+    <dimen name="ad_menu_back_marginRight">47dp</dimen>
+
+    <!-- playlist_fragment -->
+    <dimen name="horizontalScrollView_width">120dp</dimen>
+    <dimen name="horizontalScrollView_marginLeft">20dp</dimen>
+    <dimen name="linearLayout_paddingRight">20dp</dimen>
+    <dimen name="imageButton_marginLeft">20dp</dimen>
+    <dimen name="scrollGridView_horizontalSpacing">20dp</dimen>
+    <dimen name="scrollGridView_verticalSpacing">20dp</dimen>
+
+    <!-- recommend_activity -->
+    <dimen name="rseekBar_paddingLeft">20dp</dimen>
+    <dimen name="seekBar_paddingRight">20dp</dimen>
+    <dimen name="rlinearLayout_paddingRight">20dp</dimen>
+    <dimen name="rTextView_textSize">14sp</dimen>
+    <dimen name="tv_time_marginLeft">20dp</dimen>
+    <dimen name="tv_time_marginRight">20dp</dimen>
+
+    <!-- free_playing_activity -->
+    <dimen name="media_progress_paddingLeft">20dp</dimen>
+    <dimen name="media_progress_paddingRight">20dp</dimen>
+    <dimen name="pLinearLayout_paddingRight">20dp</dimen>
+    <dimen name="pTextView_textSize">14sp</dimen>
+    <dimen name="pTextView_marginLeft">20dp</dimen>
+    <dimen name="pTextView_marginRight">20dp</dimen>
+
+    <!-- ft_customprogressdialog -->
+    <dimen name="ft_TextView_marginLeft">3dp</dimen>
+
+    <!-- gird_item -->
+    <dimen name="lTextView_margin">20dp</dimen>
+
+    <!-- kidsinfo_fragment -->
+    <dimen name="kNumberPicker_width">100dp</dimen>
+    <dimen name="kNumberPicker_height">111dp</dimen>
+    <dimen name="kidsinfo_marin_left">20dp</dimen>
+    <dimen name="kidsinfo_marin_right">50dp</dimen>
+    <dimen name="kidsinfo_padding_top">15dp</dimen>
+    <dimen name="kidsinfo_padding_buttom">85dp</dimen>
+
+    <!-- activity_player -->
+    <dimen name="aEditText_textSize">30px</dimen>
+    <dimen name="aEditText_marginLeft">50dp</dimen>
+    <dimen name="aEditText_width">240dp</dimen>
+    <dimen name="aButton_width">80dp</dimen>
+    <dimen name="aButton_marginLeft">10dp</dimen>
+    <dimen name="aButton_marginRight">50dp</dimen>
+
+    <!-- payment_method -->
+    <dimen name="pLinearLayout_marginLeft">540dp</dimen>
+    <dimen name="pLinearLayout_marginTop">220dp</dimen>
+    <dimen name="pLinearLayout_padding">50dp</dimen>
+    <dimen name="pLinearLayout_paddingTop">10dp</dimen>
+    <dimen name="pImageView_height">3dp</dimen>
+    <dimen name="pImageView_marginTop">8dp</dimen>
+    <dimen name="psLinearLayout_marginTop">10dp</dimen>
+
+    <!-- babyinfo_fragment -->
+    <dimen name="babyinformation_form_width">320dp</dimen>
+    <dimen name="babyinformation_form_height">180dp</dimen>
+
+    <dimen name="frame_padding_top">30dp</dimen>
+    <dimen name="frame_padding_left">50dp</dimen>
+    <dimen name="frame_padding_right">50dp</dimen>
+    <dimen name="frame_padding_buttom">100dp</dimen>
+
+</resources>

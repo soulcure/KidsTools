@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 以下为自然颜色描述-->
+
+    <!--透明 -->
+    <color name="transparent">#00000000</color>
+
+    <!--黑色 -->
+    <color name="black">#000000</color>
+    
+    <!--关于我们-黑色 -->
+    <color name="black_gay">#151515</color>
+
+    <!--白色 -->
+    <color name="white">#ffffff</color>
+
+    <!--雪白色 -->
+    <color name="snow">#fffafa</color>
+
+    <!--绿色 -->
+    <color name="green">#008000</color>
+
+    <!--自定义绿色 -->
+    <color name="baby_green">#74D724</color>
+
+    <!--红色 -->
+    <color name="red">#ff0000</color>
+
+    <!--黄色 -->
+    <color name="yellow">#ffff00</color>
+
+    <!--定义黄色 -->
+    <color name="pay_bac_yellow">#f7ffe3</color>
+
+    <!--橙色 -->
+    <color name="orange">#ffa500</color>
+
+    <!--褐色 -->
+    <color name="brown">#a52a2a</color>
+
+    <!--蓝色 -->
+    <color name="blue">#0000ff</color>
+
+    <!--自定义蓝色 -->
+    <color name="my_blue">#004e76</color>
+
+    <!--灰色 -->
+    <color name="gray">#808080</color>
+
+    <!--紫色 -->
+    <color name="purple">#800080</color>
+
+    <!--暗蓝色 -->
+    <color name="darkblue">#00008b</color>
+
+    <!--海军色 -->
+    <color name="navy">#000080</color>
+
+    <!--暗绿色 -->
+    <color name="darkgreen">#006400</color>
+
+    <!--天蓝色 -->
+    <color name="skyblue">#87ceeb</color>
+
+    <!--橄榄色 -->
+    <color name="olive">#808000</color>
+
+
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <!-- A light Holo shade of gray -->
+    <color name="holo_gray_light">#33999999</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <!-- A really bright Holo shade of gray -->
+    <color name="holo_gray_bright">#33CCCCCC</color>
+
+    <!-- 以下为功能模块中的颜色描述-->
+
+    <color name="bright_foreground_light_disabled">#00000000</color>
+    <color name="baby_age">#723a03</color>
+    <color name="inner_bg">#51d8ff</color>
+    <color name="cartoon_role_count_text_color">#ff00ff00</color>
+    <color name="red_focus">#f20855</color>
+
+    <color name="ability_bg_color">#ff28c2f8</color>
+    <color name="ability_ability_title_color_1">#fff60a20</color>
+    <color name="ability_ability_title_color_2">#ffed8d24</color>
+    <color name="ability_ability_title_color_3">#ffed8d24</color>
+    <color name="ability_ability_title_color_4">#ffb3cf18</color>
+    <color name="ability_ability_title_color_5">#ff009ad1</color>
+    <color name="ability_ability_title_color_6">#ff037dc1</color>
+    <color name="ability_ability_title_color_7">#ff4c4c9f</color>
+    <color name="alpha_dialog">#c0000000</color>
+    <color name="blur_default">#c04fdbf3</color>
+    <color name="about_infor_btm">#e9d208</color>
+    <color name="about_infor_left_top_bg">#3ec4e4</color>
+    <color name="about_infor_focus">#e50957</color>
+    <color name="about_infor_midd_top_bg">#80b84f</color>
+    <color name="about_infor_right_top_u_bg">#5d62a5</color>
+    <color name="about_infor_right_top_d_bg">#00a1b0</color>
+    <color name="baby_info_dialog_info_lebel">#07b8e7</color>
+    <color name="baby_info_dialog_info_content">#157506</color>
+    <color name="episode_title_color">#ff2d9bd4</color>
+    <color name="episode_top_button_focus_color">#4dd1ff</color>
+    <color name="episode_top_button_color">#cfcfcf</color>
+    <color name="vod_top_item_button_choose">#08bfff</color>
+    <color name="continue_content_seriez_name">#f84028</color>
+    <color name="blue_background">#cc16bccb</color>
+    <color name="blue_text">#00b4ef</color>
+    <color name="blue_green_text">#1cc1cf</color>
+    <color name="pink_text">#fc6bb1</color>
+    <color name="orange_text">#e65800</color>
+    <color name="grey_separator">#e0e0e0</color>
+    <color name="grey_background">#f2f2f2</color>
+    <color name="background_default">@android:color/black</color>
+    <color name="green_text">#1c9e53</color>
+    <color name="red_arrow_text">#ff0909</color>
+    <color name="green_arrow_text">#119f54</color>
+    <color name="register_btn">#ffffff</color>
+    <color name="bind_mobile_recovery_password_text">#17c0d8</color>
+    <color name="agreement_title">#ffffff</color>
+    <color name="agreement_text">#333333</color>
+    <color name="agreement_text_selected">#cf397d</color>
+
+    <color name="title_cloud_text">#cf397d</color>
+    <color name="about_text">#333333</color>
+    <color name="about_us_tv_textsize">#ec6400</color>
+    <color name="about_us_et_textsize">#0eaedf</color>
+    <color name="account_name_phone_color">#666666</color>
+    <color name="user_center_tv">#e55b00</color>
+    <color name="user_center_text">#0eaedf</color>
+    <color name="dredge_info_text">#cc6400</color>
+    <color name="loading_versions_text">#f68b1f</color>
+    <color name="toast_bg_boarder_color">#80ffffff</color>
+    <color name="login_et_textcolor">#999999</color>
+    <color name="Pwd_check_text_bg_color">#d3d3d3</color>
+    <color name="Pwd_check_text_color">#242424</color>
+    <color name="hint_text">#c2c2c2</color>
+    <color name="hint_text1">#9a9a9a</color>
+
+    <color name="jacinth">#ff4901</color>
+    <color name="font_gray">#afafaf</color>
+    <color name="loading_speed">#cccccc</color>
+    <color name="control_bg">#cc16bccb</color>
+    <color name="font_white">#ffffff</color>
+
+    <color name="content_episode_textcolor">#1fc1da</color>
+    <color name="controle_parental_editText">#ddd</color>
+    <!-- introduce -->
+    <color name="text1_white">#ffffff</color>
+    <color name="text2_white">#ffffff</color>
+    <color name="introduce_character_name_color">#00bfff</color>
+    <color name="introduce_story_name_color">#ee4000</color>
+    <color name="introduce_background">#2caef9</color>
+    <color name="operator_title">#222222</color>
+    <!-- 家长中心-->
+    <color name="seekbar_thumb">#ff5a00</color>
+    <color name="seekbar_unselect">#eefc12</color>
+    <color name="list_select">#33003756</color>
+
+
+    <!-- 支付界面-->
+    <color name="bg_payment">#34c2c226</color>
+
+    <!-- 弹出框字体基本颜色 -->
+    <color name="dialog_text_color">#ffd27a</color>
+    <color name="dialog_text_color2">#ffd27a</color>
+    <color name="dialog_text_green">#8aff7a</color>
+    <color name="dialog_text_red">#ff3a26</color>
+
+</resources>

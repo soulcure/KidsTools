@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/play_frame_width"
+        android:layout_height="@dimen/play_frame_height"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_parent_frame"
+        android:orientation="vertical" >
+
+        <com.kidsmind.cartoon.views.ApplidiumTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            android:text="@string/thanks_join_vip"
+            android:textColor="@color/green"
+            android:textSize="24dp" />
+
+        <com.kidsmind.cartoon.views.ApplidiumTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:text="@string/bind"
+            android:textColor="@color/orange_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/phone"
+                android:textColor="@color/green"
+                android:textSize="@dimen/dredge_textsize" />
+
+            <EditText
+                android:id="@+id/bind_phone"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="phone"
+                android:background="@drawable/inputbox_password_message"
+                android:gravity="center_vertical"
+                android:textColor="@color/orange_text" />
+
+            <TextView
+                android:id="@+id/get_security_code"
+                android:layout_width="145dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_green"
+                android:paddingBottom="5dp"
+                android:gravity="center"
+                android:text="@string/get_security_code"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/security_code"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/dredge_textsize" />
+
+                <EditText
+                    android:id="@+id/bind_phone_code"
+                    android:layout_width="220dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/inputbox_password_message"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/green" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.kidsmind.cartoon.views.ApplidiumTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/function"
+                    android:textColor="@color/orange_text" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bind"
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_green"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/to_bind"
+            android:paddingBottom="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dredge_textsize" />
+    </LinearLayout>
+
+</RelativeLayout>

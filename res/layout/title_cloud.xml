@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:applidium="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/title_cloud_paddingRight" >
+
+    <com.kidsmind.cartoon.views.ApplidiumTextView
+        android:id="@+id/nameCloud"
+        android:layout_width="@dimen/title_cloud_width"
+        android:layout_height="@dimen/title_cloud_height"
+        android:background="@drawable/title_bj"
+        android:gravity="center"
+        android:paddingTop="@dimen/title_cloud_paddingTop"
+        android:text="@string/stub_string"
+        android:textColor="@color/title_cloud_text"
+        android:textSize="@dimen/title_cloud_textSize"
+        applidium:customFont="GothamRnd-Bold.otf" />
+
+</RelativeLayout>

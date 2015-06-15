@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/videopathget" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical">
+		   
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="2">
+			
+			<EditText android:id="@+id/getET" 
+			    android:textSize="@dimen/aEditText_textSize"
+			    android:layout_marginLeft="@dimen/aEditText_marginLeft"
+				android:layout_width="@dimen/aEditText_width"
+				android:layout_height="wrap_content"
+				android:layout_weight="5" />
+	
+			<Button android:id="@+id/playBtn" 
+			    android:layout_width="@dimen/aButton_width"
+				android:layout_height="wrap_content" 
+				android:text="play" 			    
+			    android:layout_marginLeft="@dimen/aButton_marginLeft"
+			    android:layout_marginRight="@dimen/aButton_marginRight"
+			    android:layout_weight="1"/>
+		</LinearLayout>
+     </LinearLayout>
+</RelativeLayout>

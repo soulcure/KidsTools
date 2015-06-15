@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:applidium="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/name_cloud_paddingRight" >
+
+    <TextView
+        android:id="@+id/nameCloud"
+        android:layout_width="@dimen/name_cloud_nameCloud_width"
+        android:layout_height="@dimen/name_cloud_nameCloud_height"
+        android:background="@drawable/profile_name_cloud_tab_1"
+        android:gravity="center"
+        android:paddingTop="@dimen/name_cloud_nameCloud_paddingTop"
+        android:singleLine="true"
+        android:textColor="@color/blue_text"
+        android:textSize="@dimen/name_cloud_nameCloud_textSize"/>
+
+</RelativeLayout>
