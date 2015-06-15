@@ -1,0 +1,15 @@
+android开发可分为UI和逻辑,工程支持eslipse和android studio
+UI布局入门容易，但要做到各个屏幕尺寸适配，需要写经验积累
+逻辑首先需要在功能动工前，想清楚实现，然后慢慢填充代码，填充代码时候，而工具类会让填充代码事半工倍
+
+    
+现在项目比较满意的工具类是 
+1. http post 和 get的封装（直接调用接口，回调直接在主线使用数据）；
+2. socket和网络通信流的读取和写入（收和发线程，读取和写入数据，网络协议监听回调）
+3. 还有就是gson 的json解析工具，二维码生成工具
+
+
+
+链接：http://pan.baidu.com/s/1sjNtMcl 密码：ny1w
+
+https://github.com/soulcure/KidsTools/
